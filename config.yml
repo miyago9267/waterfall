@@ -1,0 +1,87 @@
+prevent_proxy_connections: false
+listeners:
+- query_port: 25577
+  motd: '&b佩可の麥塊伺服器&c&l 1.15.2 &r&6每天&l9點至凌晨&l&n5&r點開放          &a插件&2|&a領地保護生c任務&4|&c每周活動
+    &e建築&6|&e創造世界 &d打怪&5|&drpg道具 &b商店&3|&b個人npc'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - main
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 40
+  tab_size: 60
+  force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.send
+  - bungeecord.command.reload
+  - bungeecord.command.find
+  - bungeecord.command.greload
+log_pings: false
+connection_throttle_limit: 3
+server_connect_timeout: 10000
+timeout: 30000
+server_ip: 138.19.227.116
+player_limit: -1
+ip_forward: true
+groups:
+  AI_Asada_Sinon:
+  - admin
+  Miyago9267:
+  - admin
+  SAwings:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+stats: 3524ed1f-f2bb-4334-9a83-71b24ce75043
+online_mode: true
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  wows:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 59.149.132.168:25564
+    restricted: false
+  lobby:
+    motd: nope
+    address: 59.149.132.168:25563
+    restricted: false
+  main:
+    motd: nope
+    address: 59.149.132.168:25566
+    restricted: false
+  event:
+    motd: nope
+    address: 59.149.132.168:25567
+    restricted: false
+  creative:
+    motd: nope
+    address: 59.149.132.168:25568
+    restricted: false
+  dungeon:
+    motd: nope
+    address: 59.149.132.168:25569
+    restricted: false
+  r:
+    motd: nope
+    address: 59.149.132.168:25570
+    restricted: false
+  sf4:
+    motd: nope
+    address: 59.149.132.168:25571
+    restricted: false

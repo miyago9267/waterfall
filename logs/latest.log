@@ -1,0 +1,50 @@
+[23:03:55] [main/INFO]: Using mbed TLS based native cipher.
+[23:03:55] [main/INFO]: Using zlib based native compressor.
+[23:03:55] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.15-SNAPSHOT:2615829:346
+[23:03:55] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[23:03:55] [main/INFO]: Epoll is working, utilising it!
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:03:56] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/WARN]: Forced host server pvp is not defined
+[23:03:56] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:2615829:346 by WaterfallMC
+[23:03:56] [main/WARN] [io.netty.util.internal.MacAddressUtil]: Failed to find a usable hardware address from the network interfaces; using random bytes: 67:32:c0:f4:0e:29:77:08
+[23:03:56] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[23:04:28] [Netty Worker IO Thread #1/INFO]: [/114.47.178.161:49242] <-> InitialHandler has connected
+[23:04:29] [Netty Worker IO Thread #1/INFO]: [Miyago9267|/114.47.178.161:49242] <-> ServerConnector [main] has connected
+[23:06:07] [Netty Worker IO Thread #1/INFO]: [/114.47.178.161:49242|Miyago9267] -> UpstreamBridge has disconnected
+[23:06:07] [Netty Worker IO Thread #1/INFO]: [/114.47.178.161:49242|Miyago9267] <-> DownstreamBridge <-> [main] has disconnected
+[23:08:12] [main/WARN]: Forced host server pvp is not defined
+[23:08:12] [main/INFO]: Closing listener [id: 0x8ef0899d, L:/0:0:0:0:0:0:0:0%0:25565]
+[23:08:12] [main/INFO]: Waterfall has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Waterfall ASAP.
+[23:08:12] [Netty Boss IO Thread #1/INFO]: Listening on /0.0.0.0:25565
+[23:09:22] [main/WARN]: Forced host server pvp is not defined
+[23:09:22] [main/INFO]: Closing listener [id: 0x242458ca, L:/0:0:0:0:0:0:0:0%0:25565]
+[23:09:22] [main/INFO]: Waterfall has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Waterfall ASAP.
+[23:09:22] [Netty Boss IO Thread #2/INFO]: Listening on /0.0.0.0:25565
+[23:12:49] [main/WARN]: Forced host server pvp is not defined
+[23:12:49] [main/INFO]: Closing listener [id: 0x96a6f81e, L:/0:0:0:0:0:0:0:0%0:25565]
+[23:12:49] [main/INFO]: Waterfall has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Waterfall ASAP.
+[23:12:49] [Netty Boss IO Thread #3/INFO]: Listening on /0.0.0.0:25565
+[23:15:18] [main/WARN]: Forced host server pvp is not defined
+[23:15:18] [main/INFO]: Closing listener [id: 0xaeda3307, L:/0:0:0:0:0:0:0:0%0:25565]
+[23:15:18] [main/INFO]: Waterfall has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Waterfall ASAP.
+[23:15:18] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[23:17:58] [main/WARN]: Forced host server pvp is not defined
+[23:17:58] [main/INFO]: Closing listener [id: 0xef1a5b5b, L:/0:0:0:0:0:0:0:0%0:25565]
+[23:17:58] [main/INFO]: Waterfall has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Waterfall ASAP.
+[23:17:58] [Netty Boss IO Thread #1/INFO]: Listening on /0.0.0.0:25565
