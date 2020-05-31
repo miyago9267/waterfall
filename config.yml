@@ -1,8 +1,8 @@
 prevent_proxy_connections: false
 listeners:
 - query_port: 25577
-  motd: '&b佩可の麥塊伺服器&c&l 1.15.2 &r&6每天&l9點至凌晨&l&n5&r點開放          &a插件&2|&a領地保護生c任務&4|&c每周活動
-    &e建築&6|&e創造世界 &d打怪&5|&drpg道具 &b商店&3|&b個人npc'
+  motd: '§b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+    §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
