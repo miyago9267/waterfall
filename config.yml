@@ -1,6 +1,6 @@
 listeners:
 - query_port: 25577
-  motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動        §e建築§6|§e創造世界        §d打怪§5|§drpg道具
+  motd: §6§b佩可伺服器 pecomc.ml ✰ 1.15.2 ✰ 二十四小時開放   §2§b再一次，與你相遇的物語 - - -
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
