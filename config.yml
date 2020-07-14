@@ -1,6 +1,6 @@
 listeners:
 - query_port: 25577
-  motd: §6§b佩可伺服器§r §c§lpecomc.ml§r §c§l✰ 1.15.2 ✰§r§6 §l§n二十四小時開放§r   §2§b再一次，與你相遇的物語 - - -
+  motd: §6佩可伺服器§r §bpecomc.ml§r §c§l✰ 1.15.2 ✰§r §d§n24Hr§r§d開放§r   §2§l再一次，與你相遇的物語 - - -
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
