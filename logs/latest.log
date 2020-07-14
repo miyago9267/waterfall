@@ -1078,3 +1078,7 @@ java.lang.IllegalArgumentException: Objective sb1 already exists in this scorebo
 [08:36:45] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:57180|MOGEGO] <-> DownstreamBridge <-> [dungeon] has disconnected
 [08:37:36] [Netty Worker IO Thread #0/INFO]: [/115.43.230.15:60081] <-> InitialHandler has connected
 [08:37:38] [Netty Worker IO Thread #0/INFO]: [Prozd7624|/115.43.230.15:60081] <-> ServerConnector [main] has connected
+[08:38:59] [Netty Worker IO Thread #0/INFO]: [/218.103.200.191:50800|hiu2541] -> UpstreamBridge has disconnected
+[08:38:59] [Netty Worker IO Thread #0/INFO]: [/218.103.200.191:50800|hiu2541] <-> DownstreamBridge <-> [main] has disconnected
+[08:39:30] [Netty Worker IO Thread #0/INFO]: [/218.103.200.191:50930] <-> InitialHandler has connected
+[08:39:31] [Netty Worker IO Thread #0/INFO]: [hiu2541|/218.103.200.191:50930] <-> ServerConnector [main] has connected
