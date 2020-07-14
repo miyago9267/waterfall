@@ -1,8 +1,8 @@
 server_connect_timeout: 10000
 listeners:
 - query_port: 25577
-  motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
-  §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
+  motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n24Hr&r&6開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動 §e建築§6|§e創造世界
+    §d打怪§5|§drpg道具
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -11,12 +11,12 @@ listeners:
   ping_passthrough: false
   priorities:
   - lobby
-  - lobby
+  - main
   bind_local_address: true
   host: 0.0.0.0:25565
   max_players: 40
   tab_size: 60
-  force_default_server: true
+  force_default_server: false
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
@@ -55,39 +55,47 @@ disabled_commands:
 - disabledcommandhere
 servers:
   mods:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25562
     restricted: false
   wows:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25564
     restricted: false
   lobby:
-    motd: "§b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動 
-    §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc"
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25563
     restricted: false
   main:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25566
     restricted: false
   event:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25567
     restricted: false
   creative:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25568
     restricted: false
   dungeon:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25569
     restricted: false
   r:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25570
     restricted: false
   sf4:
-    motd: nope
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r §6每天§l§n9§r§6點至凌晨§l§n5§r§6點開放 §a插件§2|§a領地保護生存 §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具 §b商店§3§b個人npc
     address: 59.149.132.168:25571
     restricted: false
