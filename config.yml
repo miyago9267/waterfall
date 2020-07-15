@@ -1,6 +1,8 @@
+server_connect_timeout: 10000
 listeners:
 - query_port: 25577
-  motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語 - - -
+  motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
+    - - -
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -31,9 +33,8 @@ permissions:
   - bungeecord.command.greload
 log_pings: false
 connection_throttle_limit: 40000
-server_connect_timeout: 10000
+prevent_proxy_connections: false
 timeout: 130000
-stats: f8f6a668-bc82-46ba-9c53-511a13c1a959
 server_ip: 138.19.227.116
 player_limit: -1
 ip_forward: true
@@ -47,45 +48,54 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: f8f6a668-bc82-46ba-9c53-511a13c1a959
 online_mode: true
 forge_support: true
 disabled_commands:
 - disabledcommandhere
 servers:
   mods:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25562
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25562
     restricted: false
   wows:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25564
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25564
     restricted: false
   lobby:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25563
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25563
     restricted: false
   main:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25566
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25566
     restricted: false
   event:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25567
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25567
     restricted: false
   creative:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25568
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25568
     restricted: false
   dungeon:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25569
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25569
     restricted: false
   r:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25570
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25570
     restricted: false
   sf4:
-    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動 §e建築§6|§e創造世界 §d打怪§5|§drpg道具
-    address: 59.149.132.168:25571
+    motd: §b佩可の麥塊伺服器 §c§l1.15.2§r§6 每天§l§n24Hr§r§6開放 §a插件§2|§a領地保護生存\n       §c任務§4|§c每週活動
+      §e建築§6|§e創造世界 §d打怪§5|§drpg道具
+    address: 138.19.227.55:25571
     restricted: false
