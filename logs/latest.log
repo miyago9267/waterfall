@@ -1,52 +1,1419 @@
-[04:47:17] [main/INFO]: Using mbed TLS based native cipher.
-[04:47:17] [main/INFO]: Using zlib based native compressor.
-[04:47:17] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.16-R0.2-SNAPSHOT:9f8a692:362
-[04:47:17] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[04:47:17] [main/INFO]: Epoll is working, utilising it!
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[04:47:17] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:17] [main/INFO]: Attempting to Jenkins download module cmd_alert v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:18] [main/INFO]: Attempting to Jenkins download module cmd_find v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:18] [main/INFO]: Attempting to Jenkins download module cmd_list v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:18] [main/INFO]: Attempting to Jenkins download module cmd_send v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:18] [main/INFO]: Attempting to Jenkins download module cmd_server v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Attempting to update plugin from ModuleVersion(build=346, git=2615829) to ModuleVersion(build=362, git=9f8a692)
-[04:47:18] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v362
-[04:47:18] [main/INFO]: Download complete
-[04:47:18] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/WARN]: Forced host server pvp is not defined
-[04:47:18] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.16-R0.2-SNAPSHOT:9f8a692:362 by WaterfallMC
-[04:47:18] [main/WARN] [io.netty.util.internal.MacAddressUtil]: Failed to find a usable hardware address from the network interfaces; using random bytes: 1c:4a:9e:db:28:78:ea:32
-[04:47:18] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
-[04:54:10] [Netty Worker IO Thread #0/INFO]: [/59.149.132.168:61430] <-> InitialHandler has connected
-[04:54:11] [Netty Worker IO Thread #0/INFO]: [AI_Asada_Sinon|/59.149.132.168:61430] <-> ServerConnector [lobby] has connected
-[04:54:18] [Netty Worker IO Thread #0/INFO]: [AI_Asada_Sinon|/59.149.132.168:61430] <-> ServerConnector [main] has connected
-[04:54:18] [Netty Worker IO Thread #0/INFO]: [/59.149.132.168:61430|AI_Asada_Sinon] <-> DownstreamBridge <-> [lobby] has disconnected
-[05:13:20] [Netty Worker IO Thread #0/INFO]: [/59.149.132.168:61430|AI_Asada_Sinon] -> UpstreamBridge has disconnected
-[05:13:20] [Netty Worker IO Thread #0/INFO]: [/59.149.132.168:61430|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
-[05:13:59] [Netty Worker IO Thread #7/INFO]: [/59.149.132.168:61602] <-> InitialHandler has connected
-[05:14:00] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/59.149.132.168:61602] <-> ServerConnector [main] has connected
+[00:01:57] [Netty Worker IO Thread #7/INFO]: [/203.77.43.103:32844|fdd0208] -> UpstreamBridge has disconnected
+[00:01:57] [Netty Worker IO Thread #7/INFO]: [/203.77.43.103:32844|fdd0208] <-> DownstreamBridge <-> [main] has disconnected
+[00:04:33] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [creative] has connected
+[00:04:33] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[00:05:39] [Netty Worker IO Thread #7/INFO]: [/114.26.149.214:64962|kapiso] -> UpstreamBridge has disconnected
+[00:05:39] [Netty Worker IO Thread #7/INFO]: [/114.26.149.214:64962|kapiso] <-> DownstreamBridge <-> [main] has disconnected
+[00:09:17] [Netty Worker IO Thread #2/INFO]: [Ender_Archer_bob] disconnected with: [Proxy] Lost connection to server.
+[00:09:17] [Netty Worker IO Thread #2/INFO]: [/114.46.18.6:54037|Ender_Archer_bob] <-> DownstreamBridge <-> [main] has disconnected
+[00:10:11] [Netty Worker IO Thread #1/WARN]: [/180.217.251.168:4167|44465] -> UpstreamBridge - NativeIoException: readAddress(..) failed: Connection reset by peer
+[00:10:11] [Netty Worker IO Thread #1/INFO]: [44465] disconnected with: NativeIoException : readAddress(..) failed: Connection reset by peer
+[00:10:11] [Netty Worker IO Thread #1/INFO]: [/180.217.251.168:4167|44465] <-> DownstreamBridge <-> [main] has disconnected
+[00:10:11] [Netty Worker IO Thread #1/INFO]: [/180.217.251.168:4167|44465] -> UpstreamBridge has disconnected
+[00:10:52] [Netty Worker IO Thread #2/INFO]: [/114.46.18.6:54037|Ender_Archer_bob] -> UpstreamBridge has disconnected
+[00:12:12] [Netty Worker IO Thread #3/INFO]: [/180.217.251.168:4238] <-> InitialHandler has connected
+[00:12:13] [Netty Worker IO Thread #3/INFO]: [44465|/180.217.251.168:4238] <-> ServerConnector [main] has connected
+[00:15:09] [Netty Worker IO Thread #1/INFO]: [/115.43.230.15:52409] <-> InitialHandler has connected
+[00:15:10] [Netty Worker IO Thread #1/INFO]: [Prozd7624|/115.43.230.15:52409] <-> ServerConnector [main] has connected
+[00:17:35] [Netty Worker IO Thread #4/INFO]: [/39.10.222.3:10364] <-> InitialHandler has connected
+[00:17:36] [Netty Worker IO Thread #4/INFO]: [riuye8763|/39.10.222.3:10364] <-> ServerConnector [main] has connected
+[00:25:50] [Netty Worker IO Thread #3/INFO]: [/180.217.251.168:4238|44465] -> UpstreamBridge has disconnected
+[00:25:50] [Netty Worker IO Thread #3/INFO]: [/180.217.251.168:4238|44465] <-> DownstreamBridge <-> [main] has disconnected
+[00:25:51] [Netty Worker IO Thread #4/INFO]: [/39.10.222.3:10364|riuye8763] -> UpstreamBridge has disconnected
+[00:25:51] [Netty Worker IO Thread #4/INFO]: [/39.10.222.3:10364|riuye8763] <-> DownstreamBridge <-> [main] has disconnected
+[00:27:21] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [dungeon] has connected
+[00:27:21] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[00:29:27] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [creative] has connected
+[00:29:27] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [dungeon] has disconnected
+[00:30:37] [Netty Worker IO Thread #1/INFO]: [/122.56.79.37:51465|Milki0728] -> UpstreamBridge has disconnected
+[00:30:37] [Netty Worker IO Thread #1/INFO]: [/122.56.79.37:51465|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[00:34:38] [Netty Worker IO Thread #6/INFO]: [/223.19.227.168:52962|Alfredtai] -> UpstreamBridge has disconnected
+[00:34:38] [Netty Worker IO Thread #6/INFO]: [/223.19.227.168:52962|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[00:40:06] [Netty Worker IO Thread #0/INFO]: [me9umin_desu] disconnected with: [Proxy] Lost connection to server.
+[00:40:06] [Netty Worker IO Thread #0/INFO]: [/119.247.168.169:61192|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[00:41:35] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [main] has connected
+[00:41:35] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[00:41:46] [Netty Worker IO Thread #0/WARN]: [/119.247.168.169:61192|me9umin_desu] -> UpstreamBridge - read timed out
+[00:41:46] [Netty Worker IO Thread #0/INFO]: [/119.247.168.169:61192|me9umin_desu] -> UpstreamBridge has disconnected
+[00:42:10] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [creative] has connected
+[00:42:10] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[00:43:29] [Netty Worker IO Thread #0/INFO]: [/61.238.14.229:36906] <-> InitialHandler has connected
+[00:43:30] [Netty Worker IO Thread #0/INFO]: [BKN_ERK|/61.238.14.229:36906] <-> ServerConnector [main] has connected
+[00:43:49] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:55422] <-> ServerConnector [main] has connected
+[00:43:49] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[00:45:29] [Netty Worker IO Thread #6/INFO]: [/124.244.143.117:51651] <-> InitialHandler has connected
+[00:45:31] [Netty Worker IO Thread #6/INFO]: [soapsoap_|/124.244.143.117:51651] <-> ServerConnector [main] has connected
+[00:46:09] [Netty Worker IO Thread #1/INFO]: [/219.79.89.172:51781] <-> InitialHandler has connected
+[00:46:10] [Netty Worker IO Thread #1/INFO]: [little_manch|/219.79.89.172:51781] <-> ServerConnector [main] has connected
+[00:46:47] [Netty Worker IO Thread #3/INFO]: [/223.16.30.85:49618|OwO_45] -> UpstreamBridge has disconnected
+[00:46:47] [Netty Worker IO Thread #3/INFO]: [/223.16.30.85:49618|OwO_45] <-> DownstreamBridge <-> [main] has disconnected
+[00:48:16] [Netty Worker IO Thread #4/INFO]: [/119.14.182.4:57642|Mayuri2018] -> UpstreamBridge has disconnected
+[00:48:16] [Netty Worker IO Thread #4/INFO]: [/119.14.182.4:57642|Mayuri2018] <-> DownstreamBridge <-> [main] has disconnected
+[00:49:46] [Netty Worker IO Thread #5/INFO]: [/175.97.52.130:10177] <-> InitialHandler has connected
+[00:49:47] [Netty Worker IO Thread #5/INFO]: [cs98059|/175.97.52.130:10177] <-> ServerConnector [main] has connected
+[00:51:10] [Netty Worker IO Thread #5/INFO]: [homan990|/60.242.111.20:6880] <-> ServerConnector [main] has connected
+[00:51:10] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:6880|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[00:51:15] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:37380] <-> InitialHandler has connected
+[00:51:16] [Netty Worker IO Thread #6/INFO]: [Yolo_Leon7104|/123.203.26.24:37380] <-> ServerConnector [main] has connected
+[00:54:18] [Netty Worker IO Thread #6/INFO]: [/124.244.143.117:51651|soapsoap_] -> UpstreamBridge has disconnected
+[00:54:18] [Netty Worker IO Thread #6/INFO]: [/124.244.143.117:51651|soapsoap_] <-> DownstreamBridge <-> [main] has disconnected
+[01:02:12] [Netty Worker IO Thread #3/INFO]: [/39.10.222.3:10765] <-> InitialHandler has connected
+[01:02:14] [Netty Worker IO Thread #3/INFO]: [riuye8763|/39.10.222.3:10765] <-> ServerConnector [main] has connected
+[01:02:58] [Netty Worker IO Thread #5/INFO]: [/180.217.251.168:4305] <-> InitialHandler has connected
+[01:02:59] [Netty Worker IO Thread #5/INFO]: [44465|/180.217.251.168:4305] <-> ServerConnector [main] has connected
+[01:08:49] [Netty Worker IO Thread #1/INFO]: [/115.43.230.15:52409|Prozd7624] -> UpstreamBridge has disconnected
+[01:08:49] [Netty Worker IO Thread #1/INFO]: [/115.43.230.15:52409|Prozd7624] <-> DownstreamBridge <-> [main] has disconnected
+[01:09:07] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:6880|homan990] -> UpstreamBridge has disconnected
+[01:09:07] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:6880|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[01:10:11] [Netty Worker IO Thread #2/INFO]: [/223.19.227.168:53586] <-> InitialHandler has connected
+[01:10:12] [Netty Worker IO Thread #2/INFO]: [Alfredtai|/223.19.227.168:53586] <-> ServerConnector [creative] has connected
+[01:10:22] [Netty Worker IO Thread #2/INFO]: [Alfredtai|/223.19.227.168:53586] <-> ServerConnector [main] has connected
+[01:10:23] [Netty Worker IO Thread #2/INFO]: [/223.19.227.168:53586|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[01:13:46] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54046] <-> InitialHandler has connected
+[01:13:47] [Netty Worker IO Thread #6/INFO]: [VolvoB9TL|/125.59.76.175:54046] <-> ServerConnector [main] has connected
+[01:15:06] [Netty Worker IO Thread #3/INFO]: [/58.153.107.131:50035|_Leave] -> UpstreamBridge has disconnected
+[01:15:06] [Netty Worker IO Thread #3/INFO]: [/58.153.107.131:50035|_Leave] <-> DownstreamBridge <-> [main] has disconnected
+[01:22:08] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:9055] <-> InitialHandler has connected
+[01:22:09] [Netty Worker IO Thread #1/INFO]: [homan990|/60.242.111.20:9055] <-> ServerConnector [main] has connected
+[01:24:52] [Netty Worker IO Thread #4/INFO]: [/112.104.105.46:57826] <-> InitialHandler has connected
+[01:24:54] [Netty Worker IO Thread #4/INFO]: [Ricky_hwe|/112.104.105.46:57826] <-> ServerConnector [main] has connected
+[01:28:37] [Netty Worker IO Thread #6/INFO]: [/119.247.168.222:61878] <-> InitialHandler has connected
+[01:28:37] [Netty Worker IO Thread #6/INFO]: [me9umin_desu|/119.247.168.222:61878] <-> ServerConnector [main] has connected
+[01:29:00] [Netty Worker IO Thread #3/INFO]: [/175.180.120.89:54879|SnowHatsune] -> UpstreamBridge has disconnected
+[01:29:00] [Netty Worker IO Thread #3/INFO]: [/175.180.120.89:54879|SnowHatsune] <-> DownstreamBridge <-> [main] has disconnected
+[01:34:06] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:9055|homan990] -> UpstreamBridge has disconnected
+[01:34:06] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:9055|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[01:35:55] [Netty Worker IO Thread #0/INFO]: [/61.238.14.229:36906|BKN_ERK] -> UpstreamBridge has disconnected
+[01:35:55] [Netty Worker IO Thread #0/INFO]: [/61.238.14.229:36906|BKN_ERK] <-> DownstreamBridge <-> [main] has disconnected
+[01:36:38] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:58580] <-> InitialHandler has connected
+[01:36:42] [Netty Worker IO Thread #7/INFO]: [jygh_Galaxy|/218.166.163.13:58580] <-> ServerConnector [main] has connected
+[01:37:27] [Netty Worker IO Thread #1/WARN]: [/220.132.30.138:54951] <-> InitialHandler - read timed out
+[01:37:29] [Netty Worker IO Thread #4/INFO]: [/112.104.105.46:57826|Ricky_hwe] -> UpstreamBridge has disconnected
+[01:37:29] [Netty Worker IO Thread #4/INFO]: [/112.104.105.46:57826|Ricky_hwe] <-> DownstreamBridge <-> [main] has disconnected
+[01:39:43] [Netty Worker IO Thread #6/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[01:39:43] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54046|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:39:43] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54046|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[01:39:44] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54091] <-> InitialHandler has connected
+[01:39:45] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54091] <-> ServerConnector [main] has connected
+[01:39:45] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 2 seconds before logging back in!
+[01:39:45] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54091|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:39:45] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54091] <-> ServerConnector [main] has disconnected
+[01:39:47] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54093] <-> InitialHandler has connected
+[01:39:47] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54093] <-> ServerConnector [main] has connected
+[01:39:47] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 0 seconds before logging back in!
+[01:39:47] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54093|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:39:47] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54093] <-> ServerConnector [main] has disconnected
+[01:39:48] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54094] <-> InitialHandler has connected
+[01:39:48] [Netty Worker IO Thread #4/INFO]: [VolvoB9TL|/125.59.76.175:54094] <-> ServerConnector [main] has connected
+[01:39:51] [Netty Worker IO Thread #5/INFO]: [/115.43.230.15:55432] <-> InitialHandler has connected
+[01:39:52] [Netty Worker IO Thread #5/INFO]: [Prozd7624|/115.43.230.15:55432] <-> ServerConnector [main] has connected
+[01:40:28] [Netty Worker IO Thread #4/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[01:40:28] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54094|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:40:28] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54094|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[01:40:31] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54095] <-> InitialHandler has connected
+[01:40:31] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54095] <-> ServerConnector [main] has connected
+[01:40:31] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 1 seconds before logging back in!
+[01:40:31] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54095|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:40:31] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54095] <-> ServerConnector [main] has disconnected
+[01:40:32] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54097] <-> InitialHandler has connected
+[01:40:33] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54097] <-> ServerConnector [main] has connected
+[01:40:33] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 0 seconds before logging back in!
+[01:40:33] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54097|VolvoB9TL] -> UpstreamBridge has disconnected
+[01:40:33] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54097] <-> ServerConnector [main] has disconnected
+[01:40:33] [Netty Worker IO Thread #1/INFO]: [/125.59.76.175:54098] <-> InitialHandler has connected
+[01:40:34] [Netty Worker IO Thread #1/INFO]: [VolvoB9TL|/125.59.76.175:54098] <-> ServerConnector [main] has connected
+[01:40:47] [Netty Worker IO Thread #2/INFO]: [/114.45.82.49:3186] <-> InitialHandler has connected
+[01:40:50] [Netty Worker IO Thread #2/INFO]: [knight_23|/114.45.82.49:3186] <-> ServerConnector [main] has connected
+[01:42:10] [Netty Worker IO Thread #2/INFO]: [/60.242.111.20:9413] <-> InitialHandler has connected
+[01:42:11] [Netty Worker IO Thread #2/INFO]: [homan990|/60.242.111.20:9413] <-> ServerConnector [main] has connected
+[01:46:07] [Netty Worker IO Thread #5/INFO]: [/115.43.230.15:55432|Prozd7624] -> UpstreamBridge has disconnected
+[01:46:07] [Netty Worker IO Thread #5/INFO]: [/115.43.230.15:55432|Prozd7624] <-> DownstreamBridge <-> [main] has disconnected
+[01:46:31] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:55668] <-> InitialHandler has connected
+[01:46:32] [Netty Worker IO Thread #6/INFO]: [Prozd7624|/115.43.230.15:55668] <-> ServerConnector [lobby] has connected
+[01:46:40] [Netty Worker IO Thread #6/INFO]: [Prozd7624|/115.43.230.15:55668] <-> ServerConnector [main] has connected
+[01:46:40] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:55668|Prozd7624] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:46:57] [Netty Worker IO Thread #1/INFO]: [/119.247.171.204:49659] <-> InitialHandler has connected
+[01:46:57] [Netty Worker IO Thread #1/INFO]: [me9umin_desu] disconnected with: You are already connected to this proxy!
+[01:46:57] [Netty Worker IO Thread #6/INFO]: [/119.247.168.222:61878|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[01:46:57] [Netty Worker IO Thread #1/INFO]: [me9umin_desu|/119.247.171.204:49659] <-> ServerConnector [main] has connected
+[01:47:11] [Netty Worker IO Thread #2/INFO]: [/60.242.111.20:9413|homan990] -> UpstreamBridge has disconnected
+[01:47:11] [Netty Worker IO Thread #2/INFO]: [/60.242.111.20:9413|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[01:47:15] [Netty Worker IO Thread #4/INFO]: [/223.17.81.219:56767] <-> InitialHandler has connected
+[01:47:16] [Netty Worker IO Thread #4/INFO]: [TOSHK24914478|/223.17.81.219:56767] <-> ServerConnector [main] has connected
+[01:48:23] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:9629] <-> InitialHandler has connected
+[01:48:24] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:9629] <-> ServerConnector [main] has connected
+[01:48:55] [Netty Worker IO Thread #6/WARN]: [/119.247.168.222:61878|me9umin_desu] -> UpstreamBridge - read timed out
+[01:48:55] [Netty Worker IO Thread #6/INFO]: [/119.247.168.222:61878|me9umin_desu] -> UpstreamBridge has disconnected
+[01:49:29] [Netty Worker IO Thread #2/INFO]: [/119.247.238.184:53362] <-> InitialHandler has connected
+[01:49:31] [Netty Worker IO Thread #2/INFO]: [Makshen|/119.247.238.184:53362] <-> ServerConnector [main] has connected
+[01:49:44] [Netty Worker IO Thread #6/INFO]: [/119.247.169.95:49699] <-> InitialHandler has connected
+[01:49:45] [Netty Worker IO Thread #6/INFO]: [me9umin_desu] disconnected with: You are already connected to this proxy!
+[01:49:45] [Netty Worker IO Thread #1/INFO]: [/119.247.171.204:49659|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[01:49:45] [Netty Worker IO Thread #1/INFO]: [/119.247.171.204:49659|me9umin_desu] -> UpstreamBridge has disconnected
+[01:49:45] [Netty Worker IO Thread #6/INFO]: [me9umin_desu|/119.247.169.95:49699] <-> ServerConnector [main] has connected
+[01:51:04] [Netty Worker IO Thread #5/INFO]: [44465] disconnected with: Timed out
+[01:51:04] [Netty Worker IO Thread #5/INFO]: [/180.217.251.168:4305|44465] <-> DownstreamBridge <-> [main] has disconnected
+[01:51:07] [Netty Worker IO Thread #5/INFO]: [/180.217.251.168:4305|44465] -> UpstreamBridge has disconnected
+[01:52:56] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:37380|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[01:52:56] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:37380|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[01:53:01] [Netty Worker IO Thread #1/INFO]: [/123.203.26.24:39749] <-> InitialHandler has connected
+[01:53:07] [Netty Worker IO Thread #2/INFO]: [/123.203.26.24:39754] <-> InitialHandler has connected
+[01:54:15] [Netty Worker IO Thread #4/INFO]: [/59.102.169.232:49835] <-> InitialHandler has connected
+[01:54:20] [Netty Worker IO Thread #4/INFO]: [cffhsd_haiou|/59.102.169.232:49835] <-> ServerConnector [main] has connected
+[01:54:21] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:55668|Prozd7624] -> UpstreamBridge has disconnected
+[01:54:21] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:55668|Prozd7624] <-> DownstreamBridge <-> [main] has disconnected
+[01:54:31] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:39808] <-> InitialHandler has connected
+[01:54:33] [Netty Worker IO Thread #6/INFO]: [Yolo_Leon7104|/123.203.26.24:39808] <-> ServerConnector [main] has connected
+[01:54:54] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:39808|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[01:54:54] [Netty Worker IO Thread #6/INFO]: [/123.203.26.24:39808|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[01:55:00] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:39820] <-> InitialHandler has connected
+[01:55:01] [Netty Worker IO Thread #3/INFO]: [Yolo_Leon7104|/123.203.26.24:39820] <-> ServerConnector [main] has connected
+[01:55:25] [Netty Worker IO Thread #6/INFO]: [/114.44.159.34:10434] <-> InitialHandler has connected
+[01:55:26] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:39820|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[01:55:26] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:39820|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[01:55:27] [Netty Worker IO Thread #6/INFO]: [hayate0913|/114.44.159.34:10434] <-> ServerConnector [main] has connected
+[01:55:30] [Netty Worker IO Thread #1/INFO]: [/123.203.26.24:39830] <-> InitialHandler has connected
+[01:55:30] [Netty Worker IO Thread #1/INFO]: [Yolo_Leon7104|/123.203.26.24:39830] <-> ServerConnector [main] has connected
+[01:58:15] [Netty Worker IO Thread #7/INFO]: [/116.241.42.129:60452] <-> InitialHandler has connected
+[01:58:16] [Netty Worker IO Thread #7/INFO]: [curry_Chan|/116.241.42.129:60452] <-> ServerConnector [main] has connected
+[01:58:44] [Netty Worker IO Thread #1/INFO]: [/221.124.157.37:5941] <-> InitialHandler has connected
+[01:58:45] [Netty Worker IO Thread #1/INFO]: [IcyWhales|/221.124.157.37:5941] <-> ServerConnector [main] has connected
+[01:59:04] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[01:59:04] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:55422|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[02:03:34] [Netty Worker IO Thread #2/INFO]: [/114.45.82.49:3186|knight_23] -> UpstreamBridge has disconnected
+[02:03:34] [Netty Worker IO Thread #2/INFO]: [/114.45.82.49:3186|knight_23] <-> DownstreamBridge <-> [main] has disconnected
+[02:08:42] [Netty Worker IO Thread #6/INFO]: [/14.199.105.241:51637|infinity_7] -> UpstreamBridge has disconnected
+[02:08:42] [Netty Worker IO Thread #6/INFO]: [/14.199.105.241:51637|infinity_7] <-> DownstreamBridge <-> [main] has disconnected
+[02:10:22] [Netty Worker IO Thread #1/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[02:10:22] [Netty Worker IO Thread #1/INFO]: [/125.59.76.175:54098|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:10:22] [Netty Worker IO Thread #1/INFO]: [/125.59.76.175:54098|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[02:10:26] [Netty Worker IO Thread #5/INFO]: [/125.59.76.175:54141] <-> InitialHandler has connected
+[02:10:27] [Netty Worker IO Thread #5/INFO]: [VolvoB9TL|/125.59.76.175:54141] <-> ServerConnector [main] has connected
+[02:10:27] [Netty Worker IO Thread #5/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 0 seconds before logging back in!
+[02:10:27] [Netty Worker IO Thread #5/INFO]: [/125.59.76.175:54141|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:10:27] [Netty Worker IO Thread #5/INFO]: [VolvoB9TL|/125.59.76.175:54141] <-> ServerConnector [main] has disconnected
+[02:10:28] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54143] <-> InitialHandler has connected
+[02:10:28] [Netty Worker IO Thread #6/INFO]: [VolvoB9TL|/125.59.76.175:54143] <-> ServerConnector [main] has connected
+[02:12:16] [Netty Worker IO Thread #5/INFO]: [BunchpantsThief] disconnected with: [Proxy] Lost connection to server.
+[02:12:16] [Netty Worker IO Thread #5/INFO]: [/180.217.125.251:64538|BunchpantsThief] <-> DownstreamBridge <-> [main] has disconnected
+[02:12:16] [Netty Worker IO Thread #5/INFO]: [/180.217.125.251:64538|BunchpantsThief] -> UpstreamBridge has disconnected
+[02:12:25] [Netty Worker IO Thread #0/INFO]: [/122.56.79.37:52953] <-> InitialHandler has connected
+[02:12:27] [Netty Worker IO Thread #0/INFO]: [Milki0728|/122.56.79.37:52953] <-> ServerConnector [main] has connected
+[02:12:28] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon] disconnected with: [Proxy] Lost connection to server.
+[02:12:28] [Netty Worker IO Thread #2/INFO]: [/138.19.178.165:56716|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[02:12:31] [Netty Worker IO Thread #2/INFO]: [/119.247.170.143:49919] <-> InitialHandler has connected
+[02:12:32] [Netty Worker IO Thread #2/INFO]: [me9umin_desu] disconnected with: You are already connected to this proxy!
+[02:12:32] [Netty Worker IO Thread #6/INFO]: [/119.247.169.95:49699|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[02:12:32] [Netty Worker IO Thread #6/INFO]: [/119.247.169.95:49699|me9umin_desu] -> UpstreamBridge has disconnected
+[02:12:32] [Netty Worker IO Thread #2/INFO]: [me9umin_desu|/119.247.170.143:49919] <-> ServerConnector [main] has connected
+[02:14:08] [Netty Worker IO Thread #2/WARN]: [/138.19.178.165:56716|AI_Asada_Sinon] -> UpstreamBridge - read timed out
+[02:14:08] [Netty Worker IO Thread #2/INFO]: [/138.19.178.165:56716|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[02:16:04] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:9629|homan990] -> UpstreamBridge has disconnected
+[02:16:04] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:9629|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[02:16:07] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:9855] <-> InitialHandler has connected
+[02:16:08] [Netty Worker IO Thread #6/INFO]: [homan990|/60.242.111.20:9855] <-> ServerConnector [main] has connected
+[02:16:10] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:9855|homan990] -> UpstreamBridge has disconnected
+[02:16:10] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:9855|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[02:17:15] [Netty Worker IO Thread #1/INFO]: [/125.59.27.159:54840] <-> InitialHandler has connected
+[02:17:16] [Netty Worker IO Thread #1/INFO]: [asuna6666|/125.59.27.159:54840] <-> ServerConnector [main] has connected
+[02:17:29] [Netty Worker IO Thread #1/INFO]: [/125.59.27.159:54840|asuna6666] -> UpstreamBridge has disconnected
+[02:17:29] [Netty Worker IO Thread #1/INFO]: [/125.59.27.159:54840|asuna6666] <-> DownstreamBridge <-> [main] has disconnected
+[02:17:31] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:56243] <-> InitialHandler has connected
+[02:17:32] [Netty Worker IO Thread #5/INFO]: [Hiroshi_shoji|/113.255.13.121:56243] <-> ServerConnector [main] has connected
+[02:17:52] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:56243|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[02:17:52] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:56243|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[02:18:06] [Netty Worker IO Thread #2/INFO]: [/203.204.88.76:52746] <-> InitialHandler has connected
+[02:18:07] [Netty Worker IO Thread #2/INFO]: [Rabbit_817|/203.204.88.76:52746] <-> ServerConnector [lobby] has connected
+[02:18:17] [Netty Worker IO Thread #2/INFO]: [Rabbit_817|/203.204.88.76:52746] <-> ServerConnector [main] has connected
+[02:18:17] [Netty Worker IO Thread #2/INFO]: [Rabbit_817|/203.204.88.76:52746] <-> ServerConnector [main] has disconnected
+[02:18:21] [Netty Worker IO Thread #2/INFO]: [/203.204.88.76:52746|Rabbit_817] -> UpstreamBridge has disconnected
+[02:18:21] [Netty Worker IO Thread #2/INFO]: [/203.204.88.76:52746|Rabbit_817] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:19:19] [Netty Worker IO Thread #3/INFO]: [/114.26.149.214:65357] <-> InitialHandler has connected
+[02:19:25] [Netty Worker IO Thread #2/INFO]: [/144.214.202.81:58360] <-> InitialHandler has connected
+[02:19:26] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon|/144.214.202.81:58360] <-> ServerConnector [dungeon] has connected
+[02:19:33] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:10098] <-> InitialHandler has connected
+[02:19:33] [Netty Worker IO Thread #5/INFO]: [homan990|/60.242.111.20:10098] <-> ServerConnector [main] has connected
+[02:19:41] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon|/144.214.202.81:58360] <-> ServerConnector [main] has connected
+[02:19:41] [Netty Worker IO Thread #2/INFO]: [/144.214.202.81:58360|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[02:20:01] [Netty Worker IO Thread #1/INFO]: [/114.26.149.214:65372] <-> InitialHandler has connected
+[02:20:01] [Netty Worker IO Thread #1/INFO]: [kapiso|/114.26.149.214:65372] <-> ServerConnector [main] has connected
+[02:22:41] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon|/144.214.202.81:58360] <-> ServerConnector [dungeon] has connected
+[02:22:41] [Netty Worker IO Thread #2/INFO]: [/144.214.202.81:58360|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[02:23:21] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:10098|homan990] -> UpstreamBridge has disconnected
+[02:23:21] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:10098|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[02:24:16] [Netty Worker IO Thread #0/INFO]: [/122.56.79.37:52953|Milki0728] -> UpstreamBridge has disconnected
+[02:24:16] [Netty Worker IO Thread #0/INFO]: [/122.56.79.37:52953|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[02:24:41] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:53079] <-> InitialHandler has connected
+[02:24:42] [Netty Worker IO Thread #3/INFO]: [Milki0728|/122.56.79.37:53079] <-> ServerConnector [main] has connected
+[02:24:46] [Netty Worker IO Thread #5/WARN]: [/59.115.82.70:63667] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[02:26:21] [Netty Worker IO Thread #1/INFO]: [/180.217.251.168:4285] <-> InitialHandler has connected
+[02:26:23] [Netty Worker IO Thread #1/INFO]: [44465|/180.217.251.168:4285] <-> ServerConnector [main] has connected
+[02:26:39] [Netty Worker IO Thread #5/WARN]: [/111.255.131.50:2013] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[02:26:53] [Netty Worker IO Thread #1/INFO]: [44465] disconnected with: [Proxy] Lost connection to server.
+[02:26:53] [Netty Worker IO Thread #1/INFO]: [/180.217.251.168:4285|44465] <-> DownstreamBridge <-> [main] has disconnected
+[02:27:06] [Netty Worker IO Thread #1/INFO]: [/180.217.251.168:4285|44465] -> UpstreamBridge has disconnected
+[02:27:21] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4917] <-> InitialHandler has connected
+[02:27:22] [Netty Worker IO Thread #0/INFO]: [44465|/180.217.251.168:4917] <-> ServerConnector [main] has connected
+[02:28:34] [Netty Worker IO Thread #1/INFO]: [/123.203.26.24:39830|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[02:28:34] [Netty Worker IO Thread #1/INFO]: [/123.203.26.24:39830|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[02:28:57] [Netty Worker IO Thread #4/INFO]: [/223.17.81.219:56767|TOSHK24914478] -> UpstreamBridge has disconnected
+[02:28:57] [Netty Worker IO Thread #4/INFO]: [/223.17.81.219:56767|TOSHK24914478] <-> DownstreamBridge <-> [main] has disconnected
+[02:29:19] [Netty Worker IO Thread #2/INFO]: [/125.59.27.159:55004] <-> InitialHandler has connected
+[02:29:20] [Netty Worker IO Thread #2/INFO]: [asuna6666|/125.59.27.159:55004] <-> ServerConnector [main] has connected
+[02:29:34] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54143|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:29:34] [Netty Worker IO Thread #6/INFO]: [/125.59.76.175:54143|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[02:29:35] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54160] <-> InitialHandler has connected
+[02:29:35] [Netty Worker IO Thread #4/INFO]: [VolvoB9TL|/125.59.76.175:54160] <-> ServerConnector [main] has connected
+[02:32:06] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:56597] <-> InitialHandler has connected
+[02:32:07] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:56597] <-> ServerConnector [main] has connected
+[02:35:15] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:56597|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[02:35:15] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:56597|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[02:36:32] [Netty Worker IO Thread #4/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[02:36:32] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54160|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:36:32] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54160|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[02:36:34] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54172] <-> InitialHandler has connected
+[02:36:35] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54172] <-> ServerConnector [main] has connected
+[02:36:35] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 1 seconds before logging back in!
+[02:36:35] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54172|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:36:35] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54172] <-> ServerConnector [main] has disconnected
+[02:36:37] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54174] <-> InitialHandler has connected
+[02:36:37] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54174] <-> ServerConnector [main] has connected
+[02:37:32] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[02:37:32] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54174|VolvoB9TL] -> UpstreamBridge has disconnected
+[02:37:32] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54174|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[02:37:37] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54176] <-> InitialHandler has connected
+[02:37:38] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL|/125.59.76.175:54176] <-> ServerConnector [main] has connected
+[02:37:49] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10598] <-> InitialHandler has connected
+[02:37:49] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10598] <-> ServerConnector [creative] has connected
+[02:37:55] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:53079|Milki0728] -> UpstreamBridge has disconnected
+[02:37:55] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:53079|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[02:37:58] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10598|homan990] -> UpstreamBridge has disconnected
+[02:37:58] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10598|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[02:38:01] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10607] <-> InitialHandler has connected
+[02:38:01] [Netty Worker IO Thread #2/INFO]: [/144.214.202.81:58360|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[02:38:01] [Netty Worker IO Thread #2/INFO]: [/144.214.202.81:58360|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[02:38:01] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10607] <-> ServerConnector [main] has connected
+[02:38:24] [Netty Worker IO Thread #2/INFO]: [/125.59.27.159:55004|asuna6666] -> UpstreamBridge has disconnected
+[02:38:24] [Netty Worker IO Thread #2/INFO]: [/125.59.27.159:55004|asuna6666] <-> DownstreamBridge <-> [main] has disconnected
+[02:38:50] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10607|homan990] -> UpstreamBridge has disconnected
+[02:38:50] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10607|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[02:40:26] [Netty Worker IO Thread #2/INFO]: [me9umin_desu] disconnected with: [Proxy] Lost connection to server.
+[02:40:26] [Netty Worker IO Thread #2/INFO]: [/119.247.170.143:49919|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[02:40:39] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4917|44465] -> UpstreamBridge has disconnected
+[02:40:39] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4917|44465] <-> DownstreamBridge <-> [main] has disconnected
+[02:42:06] [Netty Worker IO Thread #2/WARN]: [/119.247.170.143:49919|me9umin_desu] -> UpstreamBridge - read timed out
+[02:42:06] [Netty Worker IO Thread #2/INFO]: [/119.247.170.143:49919|me9umin_desu] -> UpstreamBridge has disconnected
+[02:42:29] [Netty Worker IO Thread #5/INFO]: [/175.97.52.130:10177|cs98059] -> UpstreamBridge has disconnected
+[02:42:29] [Netty Worker IO Thread #5/INFO]: [/175.97.52.130:10177|cs98059] <-> DownstreamBridge <-> [main] has disconnected
+[02:45:03] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730] <-> InitialHandler has connected
+[02:45:04] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [dungeon] has connected
+[02:45:27] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[02:45:27] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[02:47:24] [Netty Worker IO Thread #2/INFO]: [/58.153.107.131:54471] <-> InitialHandler has connected
+[02:47:25] [Netty Worker IO Thread #2/INFO]: [_Leave|/58.153.107.131:54471] <-> ServerConnector [main] has connected
+[02:50:28] [Netty Worker IO Thread #1/INFO]: [/122.56.79.37:53275] <-> InitialHandler has connected
+[02:50:29] [Netty Worker IO Thread #2/INFO]: [/182.155.185.96:60760] <-> InitialHandler has connected
+[02:50:29] [Netty Worker IO Thread #2/INFO]: [Hikigaya_NCV0615|/182.155.185.96:60760] <-> ServerConnector [main] has connected
+[02:50:32] [Netty Worker IO Thread #1/INFO]: [Milki0728|/122.56.79.37:53275] <-> ServerConnector [main] has connected
+[02:52:04] [Netty Worker IO Thread #1/INFO]: [/122.56.79.37:53275|Milki0728] -> UpstreamBridge has disconnected
+[02:52:04] [Netty Worker IO Thread #1/INFO]: [/122.56.79.37:53275|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[02:52:40] [Netty Worker IO Thread #4/WARN]: [/122.56.79.37:53325] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[02:53:24] [Netty Worker IO Thread #1/INFO]: [/182.239.93.136:44013] <-> InitialHandler has connected
+[02:53:27] [Netty Worker IO Thread #1/INFO]: [dfju_79|/182.239.93.136:44013] <-> ServerConnector [creative] has connected
+[02:53:37] [Netty Worker IO Thread #6/INFO]: [/113.255.13.121:56815] <-> InitialHandler has connected
+[02:53:37] [Netty Worker IO Thread #6/INFO]: [Hiroshi_shoji|/113.255.13.121:56815] <-> ServerConnector [main] has connected
+[02:53:46] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794] <-> InitialHandler has connected
+[02:53:47] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10794] <-> ServerConnector [main] has connected
+[02:54:13] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10794] <-> ServerConnector [creative] has connected
+[02:54:13] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[02:55:57] [Netty Worker IO Thread #7/INFO]: [/123.192.82.158:18089|alvakild_owo] -> UpstreamBridge has disconnected
+[02:55:57] [Netty Worker IO Thread #7/INFO]: [/123.192.82.158:18089|alvakild_owo] <-> DownstreamBridge <-> [main] has disconnected
+[02:57:14] [Netty Worker IO Thread #6/INFO]: [/113.255.13.121:56815|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[02:57:14] [Netty Worker IO Thread #6/INFO]: [/113.255.13.121:56815|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[03:00:12] [Netty Worker IO Thread #2/INFO]: [/58.153.107.131:54471|_Leave] -> UpstreamBridge has disconnected
+[03:00:12] [Netty Worker IO Thread #2/INFO]: [/58.153.107.131:54471|_Leave] <-> DownstreamBridge <-> [main] has disconnected
+[03:00:39] [Netty Worker IO Thread #4/INFO]: [/175.180.120.89:61792] <-> InitialHandler has connected
+[03:00:40] [Netty Worker IO Thread #4/INFO]: [SnowHatsune|/175.180.120.89:61792] <-> ServerConnector [main] has connected
+[03:01:55] [Netty Worker IO Thread #4/INFO]: [/175.180.120.89:61792|SnowHatsune] -> UpstreamBridge has disconnected
+[03:01:55] [Netty Worker IO Thread #4/INFO]: [/175.180.120.89:61792|SnowHatsune] <-> DownstreamBridge <-> [main] has disconnected
+[03:06:49] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:49403] <-> InitialHandler has connected
+[03:06:50] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:49403] <-> ServerConnector [creative] has connected
+[03:07:03] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:49403] <-> ServerConnector [dungeon] has connected
+[03:07:03] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:49403|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[03:07:08] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:49403] <-> ServerConnector [main] has connected
+[03:07:08] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:49403|MOGEGO] <-> DownstreamBridge <-> [dungeon] has disconnected
+[03:07:23] [Netty Worker IO Thread #3/INFO]: [/219.76.26.45:9088] <-> InitialHandler has connected
+[03:07:24] [Netty Worker IO Thread #3/INFO]: [wingccw|/219.76.26.45:9088] <-> ServerConnector [main] has connected
+[03:10:16] [Netty Worker IO Thread #3/INFO]: [/125.59.27.159:55233] <-> InitialHandler has connected
+[03:10:17] [Netty Worker IO Thread #3/INFO]: [asuna6666|/125.59.27.159:55233] <-> ServerConnector [main] has connected
+[03:10:49] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57051] <-> InitialHandler has connected
+[03:10:49] [Netty Worker IO Thread #2/INFO]: [Hiroshi_shoji|/113.255.13.121:57051] <-> ServerConnector [main] has connected
+[03:11:43] [Netty Worker IO Thread #4/INFO]: [/59.102.169.232:49835|cffhsd_haiou] -> UpstreamBridge has disconnected
+[03:11:43] [Netty Worker IO Thread #4/INFO]: [/59.102.169.232:49835|cffhsd_haiou] <-> DownstreamBridge <-> [main] has disconnected
+[03:11:46] [Netty Worker IO Thread #0/INFO]: [/59.102.169.232:50076] <-> InitialHandler has connected
+[03:11:47] [Netty Worker IO Thread #0/INFO]: [cffhsd_haiou|/59.102.169.232:50076] <-> ServerConnector [main] has connected
+[03:12:15] [Netty Worker IO Thread #2/INFO]: [/61.93.155.82:50145] <-> InitialHandler has connected
+[03:12:17] [Netty Worker IO Thread #2/INFO]: [Jayden_1028|/61.93.155.82:50145] <-> ServerConnector [main] has connected
+[03:12:40] [Netty Worker IO Thread #3/INFO]: [/210.66.66.41:60495] <-> InitialHandler has connected
+[03:12:58] [Netty Worker IO Thread #1/INFO]: [/182.239.93.136:44013|dfju_79] -> UpstreamBridge has disconnected
+[03:12:58] [Netty Worker IO Thread #1/INFO]: [/182.239.93.136:44013|dfju_79] <-> DownstreamBridge <-> [creative] has disconnected
+[03:13:14] [Netty Worker IO Thread #6/INFO]: [/210.66.66.41:60501] <-> InitialHandler has connected
+[03:13:15] [Netty Worker IO Thread #6/INFO]: [Ciel0818|/210.66.66.41:60501] <-> ServerConnector [main] has connected
+[03:13:15] [Netty Worker IO Thread #7/INFO]: [/125.59.115.108:56756] <-> InitialHandler has connected
+[03:13:17] [Netty Worker IO Thread #7/INFO]: [AquaFubukiYuuki|/125.59.115.108:56756] <-> ServerConnector [dungeon] has connected
+[03:13:34] [Netty Worker IO Thread #7/INFO]: [AquaFubukiYuuki|/125.59.115.108:56756] <-> ServerConnector [main] has connected
+[03:13:34] [Netty Worker IO Thread #7/INFO]: [/125.59.115.108:56756|AquaFubukiYuuki] <-> DownstreamBridge <-> [dungeon] has disconnected
+[03:15:03] [Netty Worker IO Thread #5/INFO]: [/124.244.91.20:53107] <-> InitialHandler has connected
+[03:15:04] [Netty Worker IO Thread #5/INFO]: [hkthomas999|/124.244.91.20:53107] <-> ServerConnector [main] has connected
+[03:16:17] [Netty Worker IO Thread #0/INFO]: [cffhsd_haiou] disconnected with: [Proxy] Lost connection to server.
+[03:16:17] [Netty Worker IO Thread #0/INFO]: [/59.102.169.232:50076|cffhsd_haiou] <-> DownstreamBridge <-> [main] has disconnected
+[03:16:17] [Netty Worker IO Thread #0/INFO]: [/59.102.169.232:50076|cffhsd_haiou] -> UpstreamBridge has disconnected
+[03:16:22] [Netty Worker IO Thread #6/INFO]: [/223.16.120.120:49722] <-> InitialHandler has connected
+[03:16:23] [Netty Worker IO Thread #6/INFO]: [MOGEGO] disconnected with: You are already connected to this proxy!
+[03:16:23] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:49403|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[03:16:23] [Netty Worker IO Thread #6/INFO]: [MOGEGO|/223.16.120.120:49722] <-> ServerConnector [main] has connected
+[03:18:06] [Netty Worker IO Thread #1/WARN]: [/223.16.120.120:49403|MOGEGO] -> UpstreamBridge - read timed out
+[03:18:06] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:49403|MOGEGO] -> UpstreamBridge has disconnected
+[03:18:47] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57051|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[03:18:47] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57051|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[03:18:48] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57124] <-> InitialHandler has connected
+[03:18:48] [Netty Worker IO Thread #2/INFO]: [Hiroshi_shoji|/113.255.13.121:57124] <-> ServerConnector [main] has connected
+[03:18:51] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57124|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[03:18:51] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:57124|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[03:18:51] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:57138] <-> InitialHandler has connected
+[03:18:52] [Netty Worker IO Thread #5/INFO]: [Hiroshi_shoji|/113.255.13.121:57138] <-> ServerConnector [main] has connected
+[03:20:08] [Netty Worker IO Thread #3/INFO]: [/223.16.7.163:51947] <-> InitialHandler has connected
+[03:20:10] [Netty Worker IO Thread #3/INFO]: [takagi__san|/223.16.7.163:51947] <-> ServerConnector [main] has connected
+[03:20:14] [Netty Worker IO Thread #7/INFO]: [/116.241.42.129:60452|curry_Chan] -> UpstreamBridge has disconnected
+[03:20:14] [Netty Worker IO Thread #7/INFO]: [/116.241.42.129:60452|curry_Chan] <-> DownstreamBridge <-> [main] has disconnected
+[03:22:28] [Netty Worker IO Thread #6/INFO]: [MOGEGO] disconnected with: ????????????????????
+[03:22:28] [Netty Worker IO Thread #6/INFO]: [/223.16.120.120:49722|MOGEGO] -> UpstreamBridge has disconnected
+[03:22:28] [Netty Worker IO Thread #6/INFO]: [/223.16.120.120:49722|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[03:22:36] [Netty Worker IO Thread #0/INFO]: [/223.16.120.120:49733] <-> InitialHandler has connected
+[03:22:36] [Netty Worker IO Thread #0/INFO]: [MOGEGO|/223.16.120.120:49733] <-> ServerConnector [main] has connected
+[03:25:11] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49954] <-> InitialHandler has connected
+[03:25:16] [Netty Worker IO Thread #1/INFO]: [cffhsd_haiou|/59.102.169.232:49954] <-> ServerConnector [main] has connected
+[03:27:28] [Netty Worker IO Thread #4/WARN]: [/122.56.79.37:53952] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[03:28:06] [Netty Worker IO Thread #2/INFO]: [/182.155.185.96:60760|Hikigaya_NCV0615] -> UpstreamBridge has disconnected
+[03:28:06] [Netty Worker IO Thread #2/INFO]: [/182.155.185.96:60760|Hikigaya_NCV0615] <-> DownstreamBridge <-> [main] has disconnected
+[03:28:57] [Netty Worker IO Thread #3/INFO]: [/125.59.27.159:55233|asuna6666] -> UpstreamBridge has disconnected
+[03:28:57] [Netty Worker IO Thread #3/INFO]: [/125.59.27.159:55233|asuna6666] <-> DownstreamBridge <-> [main] has disconnected
+[03:30:42] [Netty Worker IO Thread #7/INFO]: [VolvoB9TL] disconnected with: Speed Hacks
+[03:30:42] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54176|VolvoB9TL] -> UpstreamBridge has disconnected
+[03:30:42] [Netty Worker IO Thread #7/INFO]: [/125.59.76.175:54176|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[03:30:45] [Netty Worker IO Thread #2/INFO]: [/125.59.76.175:54263] <-> InitialHandler has connected
+[03:30:46] [Netty Worker IO Thread #2/INFO]: [VolvoB9TL|/125.59.76.175:54263] <-> ServerConnector [main] has connected
+[03:30:46] [Netty Worker IO Thread #2/INFO]: [VolvoB9TL] disconnected with: Kicked whilst connecting to main: Please wait 1 seconds before logging back in!
+[03:30:46] [Netty Worker IO Thread #2/INFO]: [/125.59.76.175:54263|VolvoB9TL] -> UpstreamBridge has disconnected
+[03:30:46] [Netty Worker IO Thread #2/INFO]: [VolvoB9TL|/125.59.76.175:54263] <-> ServerConnector [main] has disconnected
+[03:30:47] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54265] <-> InitialHandler has connected
+[03:30:47] [Netty Worker IO Thread #4/INFO]: [VolvoB9TL|/125.59.76.175:54265] <-> ServerConnector [main] has connected
+[03:36:01] [Netty Worker IO Thread #4/INFO]: [/14.199.203.75:63731] <-> InitialHandler has connected
+[03:36:02] [Netty Worker IO Thread #4/INFO]: [Skyblockforever|/14.199.203.75:63731] <-> ServerConnector [main] has connected
+[03:36:42] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:58580|jygh_Galaxy] -> UpstreamBridge has disconnected
+[03:36:42] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:58580|jygh_Galaxy] <-> DownstreamBridge <-> [main] has disconnected
+[03:38:24] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589] <-> InitialHandler has connected
+[03:38:25] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [creative] has connected
+[03:38:29] [Netty Worker IO Thread #0/INFO]: [/223.16.120.120:49733|MOGEGO] -> UpstreamBridge has disconnected
+[03:38:29] [Netty Worker IO Thread #0/INFO]: [/223.16.120.120:49733|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[03:38:31] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49791] <-> InitialHandler has connected
+[03:38:31] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:49791] <-> ServerConnector [main] has connected
+[03:38:43] [Netty Worker IO Thread #4/INFO]: [/1.200.223.66:12652] <-> InitialHandler has connected
+[03:38:44] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [dungeon] has connected
+[03:38:44] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [creative] has disconnected
+[03:38:45] [Netty Worker IO Thread #4/INFO]: [t0005|/1.200.223.66:12652] <-> ServerConnector [main] has connected
+[03:38:50] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [main] has connected
+[03:38:50] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [dungeon] has disconnected
+[03:40:46] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:57138|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[03:40:46] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:57138|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[03:41:56] [Netty Worker IO Thread #0/INFO]: [/211.75.164.109:14964|Chara2Snas] -> UpstreamBridge has disconnected
+[03:41:56] [Netty Worker IO Thread #0/INFO]: [/211.75.164.109:14964|Chara2Snas] <-> DownstreamBridge <-> [main] has disconnected
+[03:42:10] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49791|MOGEGO] -> UpstreamBridge has disconnected
+[03:42:10] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49791|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[03:46:50] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57445] <-> InitialHandler has connected
+[03:46:51] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:57445] <-> ServerConnector [main] has connected
+[03:47:19] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49907] <-> InitialHandler has connected
+[03:47:20] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:49907] <-> ServerConnector [main] has connected
+[03:47:30] [Netty Worker IO Thread #2/INFO]: [/61.93.155.82:50145|Jayden_1028] -> UpstreamBridge has disconnected
+[03:47:30] [Netty Worker IO Thread #2/INFO]: [/61.93.155.82:50145|Jayden_1028] <-> DownstreamBridge <-> [main] has disconnected
+[03:47:32] [Netty Worker IO Thread #4/INFO]: [/61.93.155.82:50398] <-> InitialHandler has connected
+[03:47:33] [Netty Worker IO Thread #4/INFO]: [Jayden_1028|/61.93.155.82:50398] <-> ServerConnector [main] has connected
+[03:47:45] [Netty Worker IO Thread #2/INFO]: [/180.217.251.168:4505] <-> InitialHandler has connected
+[03:47:46] [Netty Worker IO Thread #2/INFO]: [44465|/180.217.251.168:4505] <-> ServerConnector [main] has connected
+[03:48:35] [Netty Worker IO Thread #2/INFO]: [44465] disconnected with: ????????????????????
+[03:48:35] [Netty Worker IO Thread #2/INFO]: [/180.217.251.168:4505|44465] <-> DownstreamBridge <-> [main] has disconnected
+[03:48:41] [Netty Worker IO Thread #2/INFO]: [/180.217.251.168:4505|44465] -> UpstreamBridge has disconnected
+[03:49:05] [Netty Worker IO Thread #6/INFO]: [/180.217.251.168:4929] <-> InitialHandler has connected
+[03:49:07] [Netty Worker IO Thread #6/INFO]: [44465|/180.217.251.168:4929] <-> ServerConnector [main] has connected
+[03:49:49] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57445|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[03:49:49] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57445|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[03:49:52] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57476] <-> InitialHandler has connected
+[03:49:52] [Netty Worker IO Thread #6/INFO]: [44465] disconnected with: Timed out
+[03:49:52] [Netty Worker IO Thread #6/INFO]: [/180.217.251.168:4929|44465] <-> DownstreamBridge <-> [main] has disconnected
+[03:49:52] [Netty Worker IO Thread #3/INFO]: [Hiroshi_shoji|/113.255.13.121:57476] <-> ServerConnector [main] has connected
+[03:49:53] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:57788] <-> InitialHandler has connected
+[03:49:53] [Netty Worker IO Thread #4/INFO]: [OwO_45|/223.16.30.85:57788] <-> ServerConnector [main] has connected
+[03:49:53] [Netty Worker IO Thread #4/INFO]: [OwO_45] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[03:49:53] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:57788|OwO_45] -> UpstreamBridge has disconnected
+[03:49:53] [Netty Worker IO Thread #4/INFO]: [OwO_45|/223.16.30.85:57788] <-> ServerConnector [main] has disconnected
+[03:49:59] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:57798] <-> InitialHandler has connected
+[03:49:59] [Netty Worker IO Thread #4/INFO]: [OwO_45|/223.16.30.85:57798] <-> ServerConnector [main] has connected
+[03:50:33] [Netty Worker IO Thread #6/INFO]: [/180.217.251.168:4929|44465] -> UpstreamBridge has disconnected
+[03:50:35] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4746] <-> InitialHandler has connected
+[03:50:38] [Netty Worker IO Thread #0/INFO]: [44465|/180.217.251.168:4746] <-> ServerConnector [main] has connected
+[03:59:44] [Netty Worker IO Thread #6/INFO]: [/114.44.159.34:10434|hayate0913] -> UpstreamBridge has disconnected
+[03:59:44] [Netty Worker IO Thread #6/INFO]: [/114.44.159.34:10434|hayate0913] <-> DownstreamBridge <-> [main] has disconnected
+[04:00:52] [Netty Worker IO Thread #1/INFO]: [cffhsd_haiou] disconnected with: [Proxy] Lost connection to server.
+[04:00:52] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49954|cffhsd_haiou] <-> DownstreamBridge <-> [main] has disconnected
+[04:00:57] [Netty Worker IO Thread #1/INFO]: [/114.43.10.61:8809] <-> InitialHandler has connected
+[04:00:59] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810] <-> InitialHandler has connected
+[04:01:00] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [lobby] has connected
+[04:01:25] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [main] has connected
+[04:01:25] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:02:32] [Netty Worker IO Thread #1/WARN]: [/59.102.169.232:49954|cffhsd_haiou] -> UpstreamBridge - read timed out
+[04:02:32] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49954|cffhsd_haiou] -> UpstreamBridge has disconnected
+[04:05:38] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [dungeon] has connected
+[04:05:38] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:06:02] [Netty Worker IO Thread #3/INFO]: [/219.76.26.45:9088|wingccw] -> UpstreamBridge has disconnected
+[04:06:02] [Netty Worker IO Thread #3/INFO]: [/219.76.26.45:9088|wingccw] <-> DownstreamBridge <-> [main] has disconnected
+[04:06:04] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:06:05] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[04:07:38] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:49907] <-> ServerConnector [creative] has connected
+[04:07:38] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49907|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[04:07:39] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [creative] has connected
+[04:07:39] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:07:40] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [creative] has connected
+[04:07:40] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [main] has disconnected
+[04:07:42] [Netty Worker IO Thread #3/INFO]: [Hiroshi_shoji|/113.255.13.121:57476] <-> ServerConnector [creative] has connected
+[04:07:42] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57476|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[04:07:43] [Netty Worker IO Thread #7/INFO]: [AquaFubukiYuuki|/125.59.115.108:56756] <-> ServerConnector [creative] has connected
+[04:07:43] [Netty Worker IO Thread #7/INFO]: [/125.59.115.108:56756|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[04:08:28] [Netty Worker IO Thread #3/INFO]: [/59.102.169.232:49765] <-> InitialHandler has connected
+[04:09:00] [Netty Worker IO Thread #7/INFO]: [/125.59.115.108:56756|AquaFubukiYuuki] -> UpstreamBridge has disconnected
+[04:09:00] [Netty Worker IO Thread #7/INFO]: [/125.59.115.108:56756|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[04:09:02] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426] <-> InitialHandler has connected
+[04:09:02] [Netty Worker IO Thread #0/INFO]: [AquaFubukiYuuki|/125.59.115.108:61426] <-> ServerConnector [creative] has connected
+[04:09:03] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49769] <-> InitialHandler has connected
+[04:09:07] [Netty Worker IO Thread #1/INFO]: [cffhsd_haiou|/59.102.169.232:49769] <-> ServerConnector [main] has connected
+[04:11:16] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:11:16] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [creative] has disconnected
+[04:11:28] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [creative] has connected
+[04:11:28] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:11:38] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57476|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[04:11:38] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57476|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[04:12:00] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57744] <-> InitialHandler has connected
+[04:12:01] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:57744] <-> ServerConnector [creative] has connected
+[04:13:08] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:57744] <-> ServerConnector [main] has connected
+[04:13:08] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57744|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:10] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49907|MOGEGO] -> UpstreamBridge has disconnected
+[04:13:10] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:49907|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:11] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:50018] <-> InitialHandler has connected
+[04:13:11] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:50018] <-> ServerConnector [creative] has connected
+[04:13:13] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [dungeon] has connected
+[04:13:13] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:14] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:50018] <-> ServerConnector [main] has connected
+[04:13:14] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:50018|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:22] [Netty Worker IO Thread #1/INFO]: [/114.26.149.214:65372|kapiso] -> UpstreamBridge has disconnected
+[04:13:22] [Netty Worker IO Thread #1/INFO]: [/114.26.149.214:65372|kapiso] <-> DownstreamBridge <-> [main] has disconnected
+[04:13:32] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:13:32] [Netty Worker IO Thread #0/INFO]: [AquaFubukiYuuki|/125.59.115.108:61426] <-> ServerConnector [main] has connected
+[04:13:32] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10794] <-> ServerConnector [main] has connected
+[04:13:32] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:32] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[04:13:32] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[04:14:03] [Netty Worker IO Thread #1/WARN]: [/218.93.207.218:35700] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[04:15:08] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [creative] has connected
+[04:15:08] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:15:11] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:57744] <-> ServerConnector [creative] has connected
+[04:15:11] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57744|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[04:15:15] [Netty Worker IO Thread #0/INFO]: [AquaFubukiYuuki|/125.59.115.108:61426] <-> ServerConnector [creative] has connected
+[04:15:15] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[04:15:29] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:50018] <-> ServerConnector [creative] has connected
+[04:15:29] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:50018|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[04:15:49] [Netty Worker IO Thread #7/INFO]: [dfju_79|/222.167.122.136:50589] <-> ServerConnector [creative] has connected
+[04:15:50] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [dungeon] has disconnected
+[04:16:07] [Netty Worker IO Thread #6/INFO]: [/118.160.204.20:5833] <-> InitialHandler has connected
+[04:16:08] [Netty Worker IO Thread #6/INFO]: [Heartache_LIFE|/118.160.204.20:5833] <-> ServerConnector [main] has connected
+[04:24:46] [Netty Worker IO Thread #4/INFO]: [/125.59.22.53:53153] <-> InitialHandler has connected
+[04:24:47] [Netty Worker IO Thread #4/INFO]: [IamKillable|/125.59.22.53:53153] <-> ServerConnector [main] has connected
+[04:25:44] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:25:44] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [creative] has disconnected
+[04:26:03] [Netty Worker IO Thread #7/INFO]: [/219.79.164.175:62988] <-> InitialHandler has connected
+[04:26:04] [Netty Worker IO Thread #7/INFO]: [HeiHei1011|/219.79.164.175:62988] <-> ServerConnector [main] has connected
+[04:26:15] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [lobby] has connected
+[04:26:15] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [main] has disconnected
+[04:26:26] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [main] has connected
+[04:26:26] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:26:31] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [lobby] has connected
+[04:26:31] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:26:34] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [lobby] has connected
+[04:26:34] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [main] has disconnected
+[04:26:43] [Netty Worker IO Thread #3/INFO]: [Matcha_Green|/114.43.10.61:8810] <-> ServerConnector [main] has connected
+[04:26:43] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:26:46] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:26:47] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:29:28] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:10794] <-> ServerConnector [creative] has connected
+[04:29:28] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[04:30:34] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:50018|MOGEGO] -> UpstreamBridge has disconnected
+[04:30:34] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:50018|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[04:30:35] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50063] <-> InitialHandler has connected
+[04:30:36] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50063] <-> ServerConnector [creative] has connected
+[04:31:21] [Netty Worker IO Thread #7/INFO]: [/113.253.219.108:59839] <-> InitialHandler has connected
+[04:31:22] [Netty Worker IO Thread #7/INFO]: [CVAKAGI|/113.253.219.108:59839] <-> ServerConnector [main] has connected
+[04:31:41] [Netty Worker IO Thread #3/INFO]: [/111.254.44.252:59839] <-> InitialHandler has connected
+[04:31:41] [Netty Worker IO Thread #3/INFO]: [Keridzher|/111.254.44.252:59839] <-> ServerConnector [lobby] has connected
+[04:31:55] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57744|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[04:31:55] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:57744|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[04:32:31] [Netty Worker IO Thread #3/INFO]: [/223.16.120.120:50070] <-> InitialHandler has connected
+[04:32:32] [Netty Worker IO Thread #3/INFO]: [MOGEGO] disconnected with: You are already connected to this proxy!
+[04:32:32] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50063|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[04:32:32] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50063|MOGEGO] -> UpstreamBridge has disconnected
+[04:32:32] [Netty Worker IO Thread #3/INFO]: [MOGEGO|/223.16.120.120:50070] <-> ServerConnector [creative] has connected
+[04:32:41] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57968] <-> InitialHandler has connected
+[04:32:43] [Netty Worker IO Thread #3/INFO]: [rwetads|/113.255.13.121:57968] <-> ServerConnector [main] has connected
+[04:32:43] [Netty Worker IO Thread #3/INFO]: [rwetads] disconnected with: Kicked whilst connecting to main: You are banned from this server. Reason: ????!????????????!
+[04:32:43] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:57968|rwetads] -> UpstreamBridge has disconnected
+[04:32:43] [Netty Worker IO Thread #3/INFO]: [rwetads|/113.255.13.121:57968] <-> ServerConnector [main] has disconnected
+[04:33:42] [Netty Worker IO Thread #3/INFO]: [Keridzher|/111.254.44.252:59839] <-> ServerConnector [main] has connected
+[04:33:42] [Netty Worker IO Thread #3/INFO]: [/111.254.44.252:59839|Keridzher] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:33:48] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:58068] <-> InitialHandler has connected
+[04:33:50] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:58068] <-> ServerConnector [creative] has connected
+[04:35:36] [Netty Worker IO Thread #4/INFO]: [/125.59.22.53:53153|IamKillable] -> UpstreamBridge has disconnected
+[04:35:36] [Netty Worker IO Thread #4/INFO]: [/125.59.22.53:53153|IamKillable] <-> DownstreamBridge <-> [main] has disconnected
+[04:35:39] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [dungeon] has connected
+[04:35:39] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:35:55] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] -> UpstreamBridge has disconnected
+[04:35:55] [Netty Worker IO Thread #3/INFO]: [/114.43.10.61:8810|Matcha_Green] <-> DownstreamBridge <-> [main] has disconnected
+[04:36:23] [Netty Worker IO Thread #3/INFO]: [/39.10.222.3:10765|riuye8763] -> UpstreamBridge has disconnected
+[04:36:23] [Netty Worker IO Thread #3/INFO]: [/39.10.222.3:10765|riuye8763] <-> DownstreamBridge <-> [main] has disconnected
+[04:36:35] [Netty Worker IO Thread #7/INFO]: [/119.247.171.204:51358] <-> InitialHandler has connected
+[04:36:36] [Netty Worker IO Thread #7/INFO]: [me9umin_desu|/119.247.171.204:51358] <-> ServerConnector [main] has connected
+[04:37:34] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:37:34] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[04:38:01] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:60045] <-> InitialHandler has connected
+[04:38:02] [Netty Worker IO Thread #4/INFO]: [UMP9_Team_404|/223.16.30.85:60045] <-> ServerConnector [main] has connected
+[04:38:45] [Netty Worker IO Thread #3/INFO]: [/111.254.44.252:59839|Keridzher] -> UpstreamBridge has disconnected
+[04:38:45] [Netty Worker IO Thread #3/INFO]: [/111.254.44.252:59839|Keridzher] <-> DownstreamBridge <-> [main] has disconnected
+[04:39:19] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794|homan990] -> UpstreamBridge has disconnected
+[04:39:19] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:10794|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[04:39:21] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:11335] <-> InitialHandler has connected
+[04:39:22] [Netty Worker IO Thread #6/INFO]: [homan990|/60.242.111.20:11335] <-> ServerConnector [creative] has connected
+[04:41:59] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [lobby] has connected
+[04:41:59] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:42:02] [Netty Worker IO Thread #7/INFO]: [AI_Asada_Sinon|/144.214.202.81:58730] <-> ServerConnector [main] has connected
+[04:42:02] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:42:54] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] -> UpstreamBridge has disconnected
+[04:42:54] [Netty Worker IO Thread #7/INFO]: [/222.167.122.136:50589|dfju_79] <-> DownstreamBridge <-> [creative] has disconnected
+[04:42:56] [Netty Worker IO Thread #3/INFO]: [/223.16.120.120:50070|MOGEGO] -> UpstreamBridge has disconnected
+[04:42:56] [Netty Worker IO Thread #3/INFO]: [/223.16.120.120:50070|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[04:43:20] [Netty Worker IO Thread #0/INFO]: [AquaFubukiYuuki|/125.59.115.108:61426] <-> ServerConnector [main] has connected
+[04:43:20] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[04:43:21] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:58068|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[04:43:21] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:58068|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[04:43:24] [Netty Worker IO Thread #4/INFO]: [/61.223.167.108:63472|kokoro_0428] -> UpstreamBridge has disconnected
+[04:43:24] [Netty Worker IO Thread #4/INFO]: [/61.223.167.108:63472|kokoro_0428] <-> DownstreamBridge <-> [main] has disconnected
+[04:43:51] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:11335|homan990] -> UpstreamBridge has disconnected
+[04:43:51] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:11335|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[04:43:53] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426|AquaFubukiYuuki] -> UpstreamBridge has disconnected
+[04:43:53] [Netty Worker IO Thread #0/INFO]: [/125.59.115.108:61426|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[04:45:52] [Netty Worker IO Thread #4/INFO]: [/61.61.82.136:51092] <-> InitialHandler has connected
+[04:45:53] [Netty Worker IO Thread #4/INFO]: [KEVIN001__|/61.61.82.136:51092] <-> ServerConnector [main] has connected
+[04:48:27] [Netty Worker IO Thread #7/INFO]: [/113.253.219.108:59839|CVAKAGI] -> UpstreamBridge has disconnected
+[04:48:27] [Netty Worker IO Thread #7/INFO]: [/113.253.219.108:59839|CVAKAGI] <-> DownstreamBridge <-> [main] has disconnected
+[04:48:45] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[04:48:45] [Netty Worker IO Thread #7/INFO]: [/144.214.202.81:58730|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:49:02] [Netty Worker IO Thread #0/INFO]: [/113.253.219.108:60438] <-> InitialHandler has connected
+[04:49:02] [Netty Worker IO Thread #0/INFO]: [CVAKAGI|/113.253.219.108:60438] <-> ServerConnector [main] has connected
+[04:49:03] [Netty Worker IO Thread #0/INFO]: [/113.253.219.108:60438|CVAKAGI] -> UpstreamBridge has disconnected
+[04:49:03] [Netty Worker IO Thread #0/INFO]: [/113.253.219.108:60438|CVAKAGI] <-> DownstreamBridge <-> [main] has disconnected
+[04:49:04] [Netty Worker IO Thread #4/INFO]: [/113.253.219.108:60440] <-> InitialHandler has connected
+[04:49:05] [Netty Worker IO Thread #4/INFO]: [CVAKAGI|/113.253.219.108:60440] <-> ServerConnector [main] has connected
+[04:50:07] [Netty Worker IO Thread #4/INFO]: [/61.238.14.229:47210] <-> InitialHandler has connected
+[04:50:08] [Netty Worker IO Thread #4/INFO]: [BKN_ERK|/61.238.14.229:47210] <-> ServerConnector [main] has connected
+[04:54:25] [Netty Worker IO Thread #6/INFO]: [/144.214.202.81:59665] <-> InitialHandler has connected
+[04:54:26] [Netty Worker IO Thread #6/INFO]: [AI_Asada_Sinon|/144.214.202.81:59665] <-> ServerConnector [main] has connected
+[04:54:42] [Netty Worker IO Thread #6/INFO]: [/138.19.178.165:59714] <-> InitialHandler has connected
+[04:54:42] [Netty Worker IO Thread #6/INFO]: [AI_Asada_Sinon] disconnected with: You are already connected to this proxy!
+[04:54:42] [Netty Worker IO Thread #6/INFO]: [/144.214.202.81:59665|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[04:54:42] [Netty Worker IO Thread #6/INFO]: [AI_Asada_Sinon|/138.19.178.165:59714] <-> ServerConnector [main] has connected
+[04:56:15] [Netty Worker IO Thread #2/INFO]: [/223.19.227.168:53586|Alfredtai] -> UpstreamBridge has disconnected
+[04:56:15] [Netty Worker IO Thread #2/INFO]: [/223.19.227.168:53586|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[04:56:38] [Netty Worker IO Thread #6/WARN]: [/144.214.202.81:59665|AI_Asada_Sinon] -> UpstreamBridge - read timed out
+[04:56:38] [Netty Worker IO Thread #6/INFO]: [/144.214.202.81:59665|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[04:56:45] [Netty Worker IO Thread #1/INFO]: [/219.79.89.172:51781|little_manch] -> UpstreamBridge has disconnected
+[04:56:45] [Netty Worker IO Thread #1/INFO]: [/219.79.89.172:51781|little_manch] <-> DownstreamBridge <-> [main] has disconnected
+[04:58:06] [Netty Worker IO Thread #2/INFO]: [/122.99.6.49:4404] <-> InitialHandler has connected
+[04:58:07] [Netty Worker IO Thread #2/INFO]: [66115544|/122.99.6.49:4404] <-> ServerConnector [main] has connected
+[05:01:42] [Netty Worker IO Thread #6/INFO]: [AI_Asada_Sinon|/138.19.178.165:59714] <-> ServerConnector [dungeon] has connected
+[05:01:42] [Netty Worker IO Thread #6/INFO]: [/138.19.178.165:59714|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[05:05:23] [Netty Worker IO Thread #4/INFO]: [/175.180.120.89:62591] <-> InitialHandler has connected
+[05:05:24] [Netty Worker IO Thread #4/INFO]: [SnowHatsune|/175.180.120.89:62591] <-> ServerConnector [main] has connected
+[05:07:43] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54265|VolvoB9TL] -> UpstreamBridge has disconnected
+[05:07:43] [Netty Worker IO Thread #4/INFO]: [/125.59.76.175:54265|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[05:07:44] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54456] <-> InitialHandler has connected
+[05:07:45] [Netty Worker IO Thread #0/INFO]: [VolvoB9TL|/125.59.76.175:54456] <-> ServerConnector [main] has connected
+[05:07:46] [Netty Worker IO Thread #4/INFO]: [/1.200.223.66:12652|t0005] -> UpstreamBridge has disconnected
+[05:07:46] [Netty Worker IO Thread #4/INFO]: [/1.200.223.66:12652|t0005] <-> DownstreamBridge <-> [main] has disconnected
+[05:08:43] [Netty Worker IO Thread #0/WARN]: [/175.168.27.216:2045] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:09:03] [Netty Worker IO Thread #6/INFO]: [AI_Asada_Sinon|/138.19.178.165:59714] <-> ServerConnector [main] has connected
+[05:09:03] [Netty Worker IO Thread #6/INFO]: [/138.19.178.165:59714|AI_Asada_Sinon] <-> DownstreamBridge <-> [dungeon] has disconnected
+[05:12:01] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4746|44465] -> UpstreamBridge has disconnected
+[05:12:01] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4746|44465] <-> DownstreamBridge <-> [main] has disconnected
+[05:12:03] [Netty Worker IO Thread #7/INFO]: [/180.217.251.168:4300] <-> InitialHandler has connected
+[05:12:03] [Netty Worker IO Thread #7/INFO]: [44465|/180.217.251.168:4300] <-> ServerConnector [main] has connected
+[05:14:16] [Netty Worker IO Thread #4/INFO]: [/113.253.219.108:60440|CVAKAGI] -> UpstreamBridge has disconnected
+[05:14:16] [Netty Worker IO Thread #4/INFO]: [/113.253.219.108:60440|CVAKAGI] <-> DownstreamBridge <-> [main] has disconnected
+[05:14:47] [Netty Worker IO Thread #3/WARN]: [/122.56.79.37:49346] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:19:53] [Netty Worker IO Thread #1/INFO]: [/223.17.81.219:58113] <-> InitialHandler has connected
+[05:19:54] [Netty Worker IO Thread #1/INFO]: [TOSHK24914478|/223.17.81.219:58113] <-> ServerConnector [main] has connected
+[05:22:12] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49769|cffhsd_haiou] -> UpstreamBridge has disconnected
+[05:22:12] [Netty Worker IO Thread #1/INFO]: [/59.102.169.232:49769|cffhsd_haiou] <-> DownstreamBridge <-> [main] has disconnected
+[05:35:16] [Netty Worker IO Thread #4/INFO]: [/223.17.29.175:62041] <-> InitialHandler has connected
+[05:35:17] [Netty Worker IO Thread #4/INFO]: [narwhal_174|/223.17.29.175:62041] <-> ServerConnector [main] has connected
+[05:35:25] [Netty Worker IO Thread #7/WARN]: [/180.217.251.168:4300|44465] -> UpstreamBridge - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:35:25] [Netty Worker IO Thread #7/INFO]: [44465] disconnected with: NativeIoException : readAddress(..) failed: Connection reset by peer
+[05:35:25] [Netty Worker IO Thread #7/INFO]: [/180.217.251.168:4300|44465] <-> DownstreamBridge <-> [main] has disconnected
+[05:35:25] [Netty Worker IO Thread #7/INFO]: [/180.217.251.168:4300|44465] -> UpstreamBridge has disconnected
+[05:35:42] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4775] <-> InitialHandler has connected
+[05:35:43] [Netty Worker IO Thread #0/INFO]: [44465|/180.217.251.168:4775] <-> ServerConnector [main] has connected
+[05:37:08] [Netty Worker IO Thread #6/INFO]: [/125.59.22.53:54654] <-> InitialHandler has connected
+[05:37:09] [Netty Worker IO Thread #6/INFO]: [IamKillable|/125.59.22.53:54654] <-> ServerConnector [main] has connected
+[05:39:28] [Netty Worker IO Thread #4/INFO]: [/61.238.14.229:47210|BKN_ERK] -> UpstreamBridge has disconnected
+[05:39:28] [Netty Worker IO Thread #4/INFO]: [/61.238.14.229:47210|BKN_ERK] <-> DownstreamBridge <-> [main] has disconnected
+[05:40:54] [Netty Worker IO Thread #6/INFO]: [/125.59.22.53:54654|IamKillable] -> UpstreamBridge has disconnected
+[05:40:54] [Netty Worker IO Thread #6/INFO]: [/125.59.22.53:54654|IamKillable] <-> DownstreamBridge <-> [main] has disconnected
+[05:42:04] [Netty Worker IO Thread #6/INFO]: [/118.160.204.20:5833|Heartache_LIFE] -> UpstreamBridge has disconnected
+[05:42:04] [Netty Worker IO Thread #6/INFO]: [/118.160.204.20:5833|Heartache_LIFE] <-> DownstreamBridge <-> [main] has disconnected
+[05:45:35] [Netty Worker IO Thread #0/WARN]: [/118.233.84.45:55008] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:45:35] [Netty Worker IO Thread #3/WARN]: [/118.233.84.45:54984] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:45:35] [Netty Worker IO Thread #6/WARN]: [/118.233.84.45:54998] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:45:35] [Netty Worker IO Thread #7/WARN]: [/118.233.84.45:55004] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:45:35] [Netty Worker IO Thread #5/WARN]: [/118.233.84.45:55020] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:48:11] [Netty Worker IO Thread #2/INFO]: [/118.160.204.20:6367] <-> InitialHandler has connected
+[05:48:12] [Netty Worker IO Thread #2/INFO]: [Heartache_LIFE|/118.160.204.20:6367] <-> ServerConnector [main] has connected
+[05:48:12] [Netty Worker IO Thread #2/INFO]: [Heartache_LIFE] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[05:48:12] [Netty Worker IO Thread #2/INFO]: [/118.160.204.20:6367|Heartache_LIFE] -> UpstreamBridge has disconnected
+[05:48:12] [Netty Worker IO Thread #2/INFO]: [Heartache_LIFE|/118.160.204.20:6367] <-> ServerConnector [main] has disconnected
+[05:53:18] [Netty Worker IO Thread #4/INFO]: [/220.142.32.113:26368] <-> InitialHandler has connected
+[05:53:19] [Netty Worker IO Thread #4/INFO]: [night_ice_TW|/220.142.32.113:26368] <-> ServerConnector [lobby] has connected
+[05:54:09] [Netty Worker IO Thread #4/INFO]: [night_ice_TW|/220.142.32.113:26368] <-> ServerConnector [main] has connected
+[05:54:09] [Netty Worker IO Thread #4/INFO]: [/220.142.32.113:26368|night_ice_TW] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:54:29] [Netty Worker IO Thread #0/INFO]: [/125.59.65.96:55482] <-> InitialHandler has connected
+[05:54:32] [Netty Worker IO Thread #0/INFO]: [XKevinchanX|/125.59.65.96:55482] <-> ServerConnector [lobby] has connected
+[05:54:54] [Netty Worker IO Thread #0/INFO]: [XKevinchanX|/125.59.65.96:55482] <-> ServerConnector [main] has connected
+[05:54:54] [Netty Worker IO Thread #0/INFO]: [XKevinchanX|/125.59.65.96:55482] <-> ServerConnector [main] has disconnected
+[05:55:02] [Netty Worker IO Thread #0/INFO]: [/125.59.65.96:55482|XKevinchanX] -> UpstreamBridge has disconnected
+[05:55:02] [Netty Worker IO Thread #0/INFO]: [/125.59.65.96:55482|XKevinchanX] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:55:08] [Netty Worker IO Thread #1/WARN]: [/1.163.154.250:60461] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[05:55:59] [Netty Worker IO Thread #2/INFO]: [/114.198.176.238:1769] <-> InitialHandler has connected
+[05:55:59] [Netty Worker IO Thread #3/INFO]: [/125.59.65.96:55622] <-> InitialHandler has connected
+[05:56:00] [Netty Worker IO Thread #2/INFO]: [Milk_tea_LoLiKon|/114.198.176.238:1769] <-> ServerConnector [main] has connected
+[05:56:01] [Netty Worker IO Thread #3/INFO]: [XKevinchanX|/125.59.65.96:55622] <-> ServerConnector [lobby] has connected
+[05:56:04] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52182] <-> InitialHandler has connected
+[05:56:05] [Netty Worker IO Thread #7/INFO]: [HelloWorld3125|/124.244.101.41:52182] <-> ServerConnector [lobby] has connected
+[05:56:11] [Netty Worker IO Thread #3/INFO]: [XKevinchanX|/125.59.65.96:55622] <-> ServerConnector [main] has connected
+[05:56:11] [Netty Worker IO Thread #3/INFO]: [/125.59.65.96:55622|XKevinchanX] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:56:29] [Netty Worker IO Thread #7/INFO]: [HelloWorld3125|/124.244.101.41:52182] <-> ServerConnector [main] has connected
+[05:56:29] [Netty Worker IO Thread #7/INFO]: [HelloWorld3125|/124.244.101.41:52182] <-> ServerConnector [main] has disconnected
+[05:56:33] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52182|HelloWorld3125] -> UpstreamBridge has disconnected
+[05:56:33] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52182|HelloWorld3125] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:57:22] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52326] <-> InitialHandler has connected
+[05:57:22] [Netty Worker IO Thread #7/INFO]: [HelloWorld3125|/124.244.101.41:52326] <-> ServerConnector [lobby] has connected
+[05:57:29] [Netty Worker IO Thread #7/INFO]: [HelloWorld3125|/124.244.101.41:52326] <-> ServerConnector [main] has connected
+[05:57:29] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52326|HelloWorld3125] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:57:40] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:49192] <-> InitialHandler has connected
+[05:57:41] [Netty Worker IO Thread #6/INFO]: [Prozd7624|/115.43.230.15:49192] <-> ServerConnector [main] has connected
+[05:58:07] [Netty Worker IO Thread #5/INFO]: [/223.19.227.168:56589] <-> InitialHandler has connected
+[05:58:08] [Netty Worker IO Thread #5/INFO]: [Alfredtai|/223.19.227.168:56589] <-> ServerConnector [main] has connected
+[05:58:17] [Netty Worker IO Thread #5/INFO]: [/223.19.227.168:56589|Alfredtai] -> UpstreamBridge has disconnected
+[05:58:17] [Netty Worker IO Thread #5/INFO]: [/223.19.227.168:56589|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[05:58:41] [Netty Worker IO Thread #7/WARN]: [/111.246.8.190:64822] <-> InitialHandler - read timed out
+[06:01:50] [Netty Worker IO Thread #4/INFO]: [/125.231.63.171:1568] <-> InitialHandler has connected
+[06:01:51] [Netty Worker IO Thread #4/INFO]: [TanDesai87|/125.231.63.171:1568] <-> ServerConnector [main] has connected
+[06:02:37] [Netty Worker IO Thread #4/INFO]: [/125.231.63.171:1568|TanDesai87] -> UpstreamBridge has disconnected
+[06:02:37] [Netty Worker IO Thread #4/INFO]: [/125.231.63.171:1568|TanDesai87] <-> DownstreamBridge <-> [main] has disconnected
+[06:04:28] [Netty Worker IO Thread #2/INFO]: [/123.203.26.24:43572] <-> InitialHandler has connected
+[06:04:29] [Netty Worker IO Thread #2/INFO]: [Yolo_Leon7104|/123.203.26.24:43572] <-> ServerConnector [main] has connected
+[06:07:52] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621] <-> InitialHandler has connected
+[06:07:53] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [creative] has connected
+[06:07:55] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:59199] <-> InitialHandler has connected
+[06:07:55] [Netty Worker IO Thread #3/INFO]: [rwetads|/113.255.13.121:59199] <-> ServerConnector [lobby] has connected
+[06:07:58] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:59199|rwetads] -> UpstreamBridge has disconnected
+[06:07:58] [Netty Worker IO Thread #3/INFO]: [/113.255.13.121:59199|rwetads] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:08:05] [Netty Worker IO Thread #0/INFO]: [/222.167.122.136:55094] <-> InitialHandler has connected
+[06:08:06] [Netty Worker IO Thread #0/INFO]: [dfju_79|/222.167.122.136:55094] <-> ServerConnector [creative] has connected
+[06:08:22] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763] <-> InitialHandler has connected
+[06:08:22] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [main] has connected
+[06:08:38] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59299] <-> InitialHandler has connected
+[06:08:39] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:59299] <-> ServerConnector [creative] has connected
+[06:09:37] [Netty Worker IO Thread #2/INFO]: [/125.59.22.53:56554] <-> InitialHandler has connected
+[06:09:38] [Netty Worker IO Thread #2/INFO]: [IamKillable|/125.59.22.53:56554] <-> ServerConnector [main] has connected
+[06:10:29] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54456|VolvoB9TL] -> UpstreamBridge has disconnected
+[06:10:29] [Netty Worker IO Thread #0/INFO]: [/125.59.76.175:54456|VolvoB9TL] <-> DownstreamBridge <-> [main] has disconnected
+[06:10:33] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [main] has connected
+[06:10:34] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[06:10:37] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:59299] <-> ServerConnector [main] has connected
+[06:10:37] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59299|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[06:10:58] [Netty Worker IO Thread #6/INFO]: [Kyaru19518981] disconnected with: [Proxy] Lost connection to server.
+[06:10:58] [Netty Worker IO Thread #6/INFO]: [/42.75.255.197:9800|Kyaru19518981] <-> DownstreamBridge <-> [main] has disconnected
+[06:10:58] [Netty Worker IO Thread #6/INFO]: [/42.75.255.197:9800|Kyaru19518981] -> UpstreamBridge has disconnected
+[06:11:05] [Netty Worker IO Thread #5/INFO]: [/125.59.76.175:54688] <-> InitialHandler has connected
+[06:11:06] [Netty Worker IO Thread #5/INFO]: [VolvoB9TL|/125.59.76.175:54688] <-> ServerConnector [main] has connected
+[06:12:10] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [creative] has connected
+[06:12:11] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[06:12:37] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:62048] <-> InitialHandler has connected
+[06:12:51] [Netty Worker IO Thread #2/INFO]: [/123.203.26.24:43572|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[06:12:51] [Netty Worker IO Thread #2/INFO]: [/123.203.26.24:43572|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[06:12:53] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:43711] <-> InitialHandler has connected
+[06:12:54] [Netty Worker IO Thread #4/INFO]: [Yolo_Leon7104|/123.203.26.24:43711] <-> ServerConnector [main] has connected
+[06:13:18] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:62120] <-> InitialHandler has connected
+[06:14:32] [Netty Worker IO Thread #4/INFO]: [/119.247.127.160:62136] <-> InitialHandler has connected
+[06:14:50] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:59299] <-> ServerConnector [creative] has connected
+[06:14:51] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59299|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[06:15:52] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:43711|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[06:15:52] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:43711|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[06:16:47] [Netty Worker IO Thread #4/INFO]: [/119.247.127.160:62262] <-> InitialHandler has connected
+[06:17:30] [Netty Worker IO Thread #3/INFO]: [/114.38.58.7:57527] <-> InitialHandler has connected
+[06:17:31] [Netty Worker IO Thread #3/INFO]: [black_ea|/114.38.58.7:57527] <-> ServerConnector [main] has connected
+[06:17:31] [Netty Worker IO Thread #3/INFO]: [black_ea] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[06:17:31] [Netty Worker IO Thread #3/INFO]: [/114.38.58.7:57527|black_ea] -> UpstreamBridge has disconnected
+[06:17:31] [Netty Worker IO Thread #3/INFO]: [black_ea|/114.38.58.7:57527] <-> ServerConnector [main] has disconnected
+[06:18:57] [Netty Worker IO Thread #7/INFO]: [/1.163.114.182:56350] <-> InitialHandler has connected
+[06:18:57] [Netty Worker IO Thread #7/INFO]: [SmallShouTom|/1.163.114.182:56350] <-> ServerConnector [lobby] has connected
+[06:19:32] [Netty Worker IO Thread #6/INFO]: [/119.247.127.160:62376] <-> InitialHandler has connected
+[06:19:44] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [creative] has connected
+[06:19:45] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[06:19:49] [Netty Worker IO Thread #7/INFO]: [SmallShouTom|/1.163.114.182:56350] <-> ServerConnector [main] has connected
+[06:19:49] [Netty Worker IO Thread #7/INFO]: [SmallShouTom|/1.163.114.182:56350] <-> ServerConnector [main] has disconnected
+[06:19:57] [Netty Worker IO Thread #2/INFO]: [Makshen] disconnected with: ????????????????????
+[06:19:57] [Netty Worker IO Thread #2/INFO]: [/119.247.238.184:53362|Makshen] -> UpstreamBridge has disconnected
+[06:19:57] [Netty Worker IO Thread #2/INFO]: [/119.247.238.184:53362|Makshen] <-> DownstreamBridge <-> [main] has disconnected
+[06:20:27] [Netty Worker IO Thread #7/INFO]: [SmallShouTom|/1.163.114.182:56350] <-> ServerConnector [main] has connected
+[06:20:27] [Netty Worker IO Thread #7/INFO]: [SmallShouTom|/1.163.114.182:56350] <-> ServerConnector [main] has disconnected
+[06:20:30] [Netty Worker IO Thread #7/INFO]: [/1.163.114.182:56350|SmallShouTom] -> UpstreamBridge has disconnected
+[06:20:30] [Netty Worker IO Thread #7/INFO]: [/1.163.114.182:56350|SmallShouTom] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:20:30] [Netty Worker IO Thread #1/INFO]: [/223.17.81.219:58113|TOSHK24914478] -> UpstreamBridge has disconnected
+[06:20:30] [Netty Worker IO Thread #1/INFO]: [/223.17.81.219:58113|TOSHK24914478] <-> DownstreamBridge <-> [main] has disconnected
+[06:20:57] [Netty Worker IO Thread #3/INFO]: [/1.163.114.182:56574] <-> InitialHandler has connected
+[06:20:58] [Netty Worker IO Thread #3/INFO]: [SmallShouTom|/1.163.114.182:56574] <-> ServerConnector [lobby] has connected
+[06:21:10] [Netty Worker IO Thread #3/INFO]: [SmallShouTom|/1.163.114.182:56574] <-> ServerConnector [main] has connected
+[06:21:10] [Netty Worker IO Thread #3/INFO]: [/1.163.114.182:56574|SmallShouTom] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:21:34] [Netty Worker IO Thread #5/INFO]: [/119.247.127.160:62435] <-> InitialHandler has connected
+[06:21:58] [Netty Worker IO Thread #3/INFO]: [/119.247.127.160:62470] <-> InitialHandler has connected
+[06:22:45] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:62514] <-> InitialHandler has connected
+[06:23:00] [Netty Worker IO Thread #3/INFO]: [/223.16.7.163:51947|takagi__san] -> UpstreamBridge has disconnected
+[06:23:00] [Netty Worker IO Thread #3/INFO]: [/223.16.7.163:51947|takagi__san] <-> DownstreamBridge <-> [main] has disconnected
+[06:23:06] [Netty Worker IO Thread #4/INFO]: [/223.16.7.163:54728] <-> InitialHandler has connected
+[06:23:06] [Netty Worker IO Thread #4/INFO]: [takagi__san|/223.16.7.163:54728] <-> ServerConnector [main] has connected
+[06:24:01] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59299|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[06:24:01] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59299|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[06:24:37] [Netty Worker IO Thread #4/INFO]: [/61.61.82.136:51092|KEVIN001__] -> UpstreamBridge has disconnected
+[06:24:37] [Netty Worker IO Thread #4/INFO]: [/61.61.82.136:51092|KEVIN001__] <-> DownstreamBridge <-> [main] has disconnected
+[06:26:29] [Netty Worker IO Thread #7/INFO]: [/14.199.105.241:53218] <-> InitialHandler has connected
+[06:26:30] [Netty Worker IO Thread #7/INFO]: [infinity_7|/14.199.105.241:53218] <-> ServerConnector [main] has connected
+[06:27:19] [Netty Worker IO Thread #7/INFO]: [/119.247.127.160:62700] <-> InitialHandler has connected
+[06:28:33] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:62743] <-> InitialHandler has connected
+[06:31:48] [Netty Worker IO Thread #7/INFO]: [/114.137.178.30:39970] <-> InitialHandler has connected
+[06:31:49] [Netty Worker IO Thread #7/INFO]: [TpxqT|/114.137.178.30:39970] <-> ServerConnector [main] has connected
+[06:32:34] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59698] <-> InitialHandler has connected
+[06:32:35] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:59698] <-> ServerConnector [creative] has connected
+[06:32:40] [Netty Worker IO Thread #7/INFO]: [Hiroshi_shoji|/113.255.13.121:59698] <-> ServerConnector [main] has connected
+[06:32:40] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59698|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[06:32:46] [Netty Worker IO Thread #5/INFO]: [/110.28.68.145:46478] <-> InitialHandler has connected
+[06:32:49] [Netty Worker IO Thread #5/INFO]: [well71194|/110.28.68.145:46478] <-> ServerConnector [main] has connected
+[06:33:04] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:62768] <-> InitialHandler has connected
+[06:33:18] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:62779] <-> InitialHandler has connected
+[06:33:39] [Netty Worker IO Thread #0/INFO]: [dfju_79|/222.167.122.136:55094] <-> ServerConnector [dungeon] has connected
+[06:33:39] [Netty Worker IO Thread #0/INFO]: [/222.167.122.136:55094|dfju_79] <-> DownstreamBridge <-> [creative] has disconnected
+[06:34:03] [Netty Worker IO Thread #0/INFO]: [dfju_79|/222.167.122.136:55094] <-> ServerConnector [main] has connected
+[06:34:03] [Netty Worker IO Thread #0/INFO]: [/222.167.122.136:55094|dfju_79] <-> DownstreamBridge <-> [dungeon] has disconnected
+[06:34:14] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [main] has connected
+[06:34:14] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[06:36:00] [Netty Worker IO Thread #1/INFO]: [/111.250.173.141:61171] <-> InitialHandler has connected
+[06:36:01] [Netty Worker IO Thread #1/INFO]: [cnn8787|/111.250.173.141:61171] <-> ServerConnector [main] has connected
+[06:36:58] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62141] <-> InitialHandler has connected
+[06:37:00] [Netty Worker IO Thread #4/INFO]: [aiden_8877|/119.236.76.141:62141] <-> ServerConnector [lobby] has connected
+[06:37:53] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62141|aiden_8877] -> UpstreamBridge has disconnected
+[06:37:53] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62141|aiden_8877] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:37:57] [Netty Worker IO Thread #5/INFO]: [/119.236.76.141:62179] <-> InitialHandler has connected
+[06:37:58] [Netty Worker IO Thread #5/INFO]: [aiden_8877|/119.236.76.141:62179] <-> ServerConnector [lobby] has connected
+[06:41:06] [Netty Worker IO Thread #5/INFO]: [aiden_8877|/119.236.76.141:62179] <-> ServerConnector [main] has connected
+[06:41:06] [Netty Worker IO Thread #5/INFO]: [aiden_8877|/119.236.76.141:62179] <-> ServerConnector [main] has disconnected
+[06:41:09] [Netty Worker IO Thread #5/INFO]: [/119.236.76.141:62179|aiden_8877] -> UpstreamBridge has disconnected
+[06:41:09] [Netty Worker IO Thread #5/INFO]: [/119.236.76.141:62179|aiden_8877] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:41:40] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62463] <-> InitialHandler has connected
+[06:41:41] [Netty Worker IO Thread #4/INFO]: [aiden_8877|/119.236.76.141:62463] <-> ServerConnector [lobby] has connected
+[06:41:48] [Netty Worker IO Thread #4/INFO]: [aiden_8877|/119.236.76.141:62463] <-> ServerConnector [main] has connected
+[06:41:48] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62463|aiden_8877] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:42:19] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59698|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[06:42:19] [Netty Worker IO Thread #7/INFO]: [/113.255.13.121:59698|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[06:42:20] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784] <-> InitialHandler has connected
+[06:42:20] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [main] has connected
+[06:47:15] [Netty Worker IO Thread #7/INFO]: [/58.177.0.164:53848] <-> InitialHandler has connected
+[06:47:17] [Netty Worker IO Thread #7/INFO]: [caiyun123|/58.177.0.164:53848] <-> ServerConnector [lobby] has connected
+[06:47:30] [Netty Worker IO Thread #7/INFO]: [/58.177.0.164:53848|caiyun123] -> UpstreamBridge has disconnected
+[06:47:30] [Netty Worker IO Thread #7/INFO]: [/58.177.0.164:53848|caiyun123] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:48:29] [Netty Worker IO Thread #0/INFO]: [/119.247.127.160:62976] <-> InitialHandler has connected
+[06:49:00] [Netty Worker IO Thread #6/INFO]: [/210.66.66.41:60501|Ciel0818] -> UpstreamBridge has disconnected
+[06:49:00] [Netty Worker IO Thread #6/INFO]: [/210.66.66.41:60501|Ciel0818] <-> DownstreamBridge <-> [main] has disconnected
+[06:49:02] [Netty Worker IO Thread #0/INFO]: [/210.66.66.41:61701] <-> InitialHandler has connected
+[06:49:03] [Netty Worker IO Thread #0/INFO]: [Ciel0818|/210.66.66.41:61701] <-> ServerConnector [main] has connected
+[06:49:21] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:63008] <-> InitialHandler has connected
+[06:49:25] [Netty Worker IO Thread #4/INFO]: [/119.247.127.160:63010] <-> InitialHandler has connected
+[06:50:24] [Netty Worker IO Thread #7/INFO]: [/111.253.99.46:58872] <-> InitialHandler has connected
+[06:50:25] [Netty Worker IO Thread #7/INFO]: [Eyjafjalla69|/111.253.99.46:58872] <-> ServerConnector [lobby] has connected
+[06:50:47] [Netty Worker IO Thread #7/INFO]: [Eyjafjalla69|/111.253.99.46:58872] <-> ServerConnector [main] has connected
+[06:50:47] [Netty Worker IO Thread #7/INFO]: [Eyjafjalla69|/111.253.99.46:58872] <-> ServerConnector [main] has disconnected
+[06:50:53] [Netty Worker IO Thread #7/INFO]: [/111.253.99.46:58872|Eyjafjalla69] -> UpstreamBridge has disconnected
+[06:50:53] [Netty Worker IO Thread #7/INFO]: [/111.253.99.46:58872|Eyjafjalla69] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:51:08] [Netty Worker IO Thread #7/INFO]: [/182.155.185.96:63244] <-> InitialHandler has connected
+[06:51:09] [Netty Worker IO Thread #7/INFO]: [Hikigaya_NCV0615|/182.155.185.96:63244] <-> ServerConnector [main] has connected
+[06:52:42] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:51577] <-> InitialHandler has connected
+[06:52:44] [Netty Worker IO Thread #3/INFO]: [Milki0728|/122.56.79.37:51577] <-> ServerConnector [main] has connected
+[06:53:29] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:63180] <-> InitialHandler has connected
+[06:53:29] [Netty Worker IO Thread #1/INFO]: [MilkYw4iL|/119.247.127.160:63180] <-> ServerConnector [lobby] has connected
+[06:53:30] [Netty Worker IO Thread #3/WARN]: [/122.56.79.37:51577|Milki0728] <-> DownstreamBridge <-> [main] - NativeIoException: readAddress(..) failed: Connection reset by peer
+[06:53:30] [Netty Worker IO Thread #3/INFO]: [Milki0728] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[06:53:30] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:51577|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[06:53:39] [Netty Worker IO Thread #5/INFO]: [/110.28.68.145:46478|well71194] -> UpstreamBridge has disconnected
+[06:53:39] [Netty Worker IO Thread #5/INFO]: [/110.28.68.145:46478|well71194] <-> DownstreamBridge <-> [main] has disconnected
+[06:53:43] [Netty Worker IO Thread #1/INFO]: [MilkYw4iL|/119.247.127.160:63180] <-> ServerConnector [main] has connected
+[06:53:43] [Netty Worker IO Thread #1/INFO]: [MilkYw4iL|/119.247.127.160:63180] <-> ServerConnector [main] has disconnected
+[06:53:53] [Netty Worker IO Thread #3/INFO]: [/125.59.65.96:55622|XKevinchanX] -> UpstreamBridge has disconnected
+[06:53:53] [Netty Worker IO Thread #3/INFO]: [/125.59.65.96:55622|XKevinchanX] <-> DownstreamBridge <-> [main] has disconnected
+[06:54:34] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:63180|MilkYw4iL] -> UpstreamBridge has disconnected
+[06:54:34] [Netty Worker IO Thread #1/INFO]: [/119.247.127.160:63180|MilkYw4iL] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:55:04] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:63271] <-> InitialHandler has connected
+[06:55:05] [Netty Worker IO Thread #2/INFO]: [MilkYw4iL|/119.247.127.160:63271] <-> ServerConnector [lobby] has connected
+[06:55:13] [Netty Worker IO Thread #3/INFO]: [/122.56.79.37:51577|Milki0728] -> UpstreamBridge has disconnected
+[06:55:19] [Netty Worker IO Thread #2/INFO]: [/122.56.79.37:51627] <-> InitialHandler has connected
+[06:55:20] [Netty Worker IO Thread #2/INFO]: [Milki0728|/122.56.79.37:51627] <-> ServerConnector [main] has connected
+[06:55:21] [Netty Worker IO Thread #2/INFO]: [MilkYw4iL|/119.247.127.160:63271] <-> ServerConnector [main] has connected
+[06:55:21] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:63271|MilkYw4iL] <-> DownstreamBridge <-> [lobby] has disconnected
+[06:56:02] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:49192|Prozd7624] -> UpstreamBridge has disconnected
+[06:56:02] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:49192|Prozd7624] <-> DownstreamBridge <-> [main] has disconnected
+[06:56:05] [Netty Worker IO Thread #2/INFO]: [/122.56.79.37:51627|Milki0728] -> UpstreamBridge has disconnected
+[06:56:05] [Netty Worker IO Thread #2/INFO]: [/122.56.79.37:51627|Milki0728] <-> DownstreamBridge <-> [main] has disconnected
+[06:57:08] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62463|aiden_8877] -> UpstreamBridge has disconnected
+[06:57:08] [Netty Worker IO Thread #4/INFO]: [/119.236.76.141:62463|aiden_8877] <-> DownstreamBridge <-> [main] has disconnected
+[06:57:09] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52326|HelloWorld3125] -> UpstreamBridge has disconnected
+[06:57:09] [Netty Worker IO Thread #7/INFO]: [/124.244.101.41:52326|HelloWorld3125] <-> DownstreamBridge <-> [main] has disconnected
+[06:58:55] [Netty Worker IO Thread #7/INFO]: [Pqwer|/161.81.154.164:55253] <-> ServerConnector [lobby] has connected
+[06:58:55] [Netty Worker IO Thread #7/INFO]: [/161.81.154.164:55253|Pqwer] <-> DownstreamBridge <-> [main] has disconnected
+[06:59:09] [Netty Worker IO Thread #0/WARN]: [/122.56.79.37:51683] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[07:01:19] [Netty Worker IO Thread #7/INFO]: [infinity_7] disconnected with: ????????????????????
+[07:01:19] [Netty Worker IO Thread #7/INFO]: [/14.199.105.241:53218|infinity_7] -> UpstreamBridge has disconnected
+[07:01:19] [Netty Worker IO Thread #7/INFO]: [/14.199.105.241:53218|infinity_7] <-> DownstreamBridge <-> [main] has disconnected
+[07:01:24] [Netty Worker IO Thread #0/INFO]: [/14.199.105.241:53274] <-> InitialHandler has connected
+[07:01:25] [Netty Worker IO Thread #0/INFO]: [infinity_7|/14.199.105.241:53274] <-> ServerConnector [main] has connected
+[07:05:44] [Netty Worker IO Thread #2/INFO]: [/36.232.21.248:54621] <-> InitialHandler has connected
+[07:05:44] [Netty Worker IO Thread #2/INFO]: [Ender_Archer_bob|/36.232.21.248:54621] <-> ServerConnector [main] has connected
+[07:06:00] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:45150] <-> InitialHandler has connected
+[07:06:01] [Netty Worker IO Thread #4/INFO]: [Yolo_Leon7104|/123.203.26.24:45150] <-> ServerConnector [main] has connected
+[07:06:03] [Netty Worker IO Thread #7/INFO]: [Pqwer|/161.81.154.164:55253] <-> ServerConnector [main] has connected
+[07:06:03] [Netty Worker IO Thread #7/INFO]: [/161.81.154.164:55253|Pqwer] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:07:51] [Netty Worker IO Thread #3/INFO]: [/219.79.89.172:50139] <-> InitialHandler has connected
+[07:07:52] [Netty Worker IO Thread #3/INFO]: [little_manch|/219.79.89.172:50139] <-> ServerConnector [main] has connected
+[07:08:24] [Netty Worker IO Thread #3/INFO]: [/1.163.114.182:56574|SmallShouTom] -> UpstreamBridge has disconnected
+[07:08:24] [Netty Worker IO Thread #3/INFO]: [/1.163.114.182:56574|SmallShouTom] <-> DownstreamBridge <-> [main] has disconnected
+[07:08:32] [Netty Worker IO Thread #6/INFO]: [/114.45.84.71:3638] <-> InitialHandler has connected
+[07:08:35] [Netty Worker IO Thread #6/INFO]: [knight_23|/114.45.84.71:3638] <-> ServerConnector [main] has connected
+[07:08:44] [Netty Worker IO Thread #6/INFO]: [/58.177.0.164:54103] <-> InitialHandler has connected
+[07:08:46] [Netty Worker IO Thread #6/INFO]: [caiyun123|/58.177.0.164:54103] <-> ServerConnector [lobby] has connected
+[07:09:05] [Netty Worker IO Thread #5/WARN]: [/124.217.188.14:55985] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[07:09:57] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [creative] has connected
+[07:09:57] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[07:10:12] [Netty Worker IO Thread #7/INFO]: [/161.81.154.164:55253|Pqwer] -> UpstreamBridge has disconnected
+[07:10:12] [Netty Worker IO Thread #7/INFO]: [/161.81.154.164:55253|Pqwer] <-> DownstreamBridge <-> [main] has disconnected
+[07:10:14] [Netty Worker IO Thread #4/INFO]: [/223.17.29.175:62041|narwhal_174] -> UpstreamBridge has disconnected
+[07:10:14] [Netty Worker IO Thread #4/INFO]: [/223.17.29.175:62041|narwhal_174] <-> DownstreamBridge <-> [main] has disconnected
+[07:10:23] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [creative] has connected
+[07:10:23] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[07:10:53] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [main] has connected
+[07:10:54] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[07:10:57] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:45150|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[07:10:57] [Netty Worker IO Thread #4/INFO]: [/123.203.26.24:45150|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[07:11:05] [Netty Worker IO Thread #0/INFO]: [/123.203.26.24:45265] <-> InitialHandler has connected
+[07:11:05] [Netty Worker IO Thread #0/INFO]: [Yolo_Leon7104|/123.203.26.24:45265] <-> ServerConnector [main] has connected
+[07:11:23] [Netty Worker IO Thread #6/INFO]: [caiyun123|/58.177.0.164:54103] <-> ServerConnector [main] has connected
+[07:11:23] [Netty Worker IO Thread #6/INFO]: [/58.177.0.164:54103|caiyun123] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:12:01] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12576] <-> InitialHandler has connected
+[07:12:02] [Netty Worker IO Thread #1/INFO]: [homan990|/60.242.111.20:12576] <-> ServerConnector [creative] has connected
+[07:12:07] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:60045|UMP9_Team_404] -> UpstreamBridge has disconnected
+[07:12:07] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:60045|UMP9_Team_404] <-> DownstreamBridge <-> [main] has disconnected
+[07:12:22] [Netty Worker IO Thread #7/INFO]: [/113.254.217.209:58456] <-> InitialHandler has connected
+[07:12:24] [Netty Worker IO Thread #7/INFO]: [WhoIsEmilia|/113.254.217.209:58456] <-> ServerConnector [main] has connected
+[07:12:26] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12576|homan990] -> UpstreamBridge has disconnected
+[07:12:26] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12576|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:12:35] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12614] <-> InitialHandler has connected
+[07:12:36] [Netty Worker IO Thread #4/INFO]: [homan990|/60.242.111.20:12614] <-> ServerConnector [creative] has connected
+[07:12:58] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12614|homan990] -> UpstreamBridge has disconnected
+[07:12:58] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12614|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:12:58] [Netty Worker IO Thread #3/INFO]: [/14.199.165.74:63985] <-> InitialHandler has connected
+[07:13:08] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12632] <-> InitialHandler has connected
+[07:13:09] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:12632] <-> ServerConnector [creative] has connected
+[07:13:16] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:12632] <-> ServerConnector [main] has connected
+[07:13:16] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12632|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:13:17] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12632|homan990] -> UpstreamBridge has disconnected
+[07:13:17] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12632|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[07:13:19] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:12647] <-> InitialHandler has connected
+[07:13:38] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:12669] <-> InitialHandler has connected
+[07:13:39] [Netty Worker IO Thread #6/INFO]: [homan990|/60.242.111.20:12669] <-> ServerConnector [main] has connected
+[07:13:48] [Netty Worker IO Thread #6/INFO]: [/59.148.138.83:54223] <-> InitialHandler has connected
+[07:13:49] [Netty Worker IO Thread #6/INFO]: [Jacksonleung223|/59.148.138.83:54223] <-> ServerConnector [lobby] has connected
+[07:13:54] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:12669|homan990] -> UpstreamBridge has disconnected
+[07:13:54] [Netty Worker IO Thread #6/INFO]: [/60.242.111.20:12669|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[07:14:04] [Netty Worker IO Thread #6/INFO]: [Jacksonleung223|/59.148.138.83:54223] <-> ServerConnector [main] has connected
+[07:14:04] [Netty Worker IO Thread #6/INFO]: [/59.148.138.83:54223|Jacksonleung223] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:14:50] [Netty Worker IO Thread #2/INFO]: [/125.59.22.53:56554|IamKillable] -> UpstreamBridge has disconnected
+[07:14:50] [Netty Worker IO Thread #2/INFO]: [/125.59.22.53:56554|IamKillable] <-> DownstreamBridge <-> [main] has disconnected
+[07:14:51] [Netty Worker IO Thread #4/INFO]: [/14.199.203.75:63731|Skyblockforever] -> UpstreamBridge has disconnected
+[07:14:51] [Netty Worker IO Thread #4/INFO]: [/14.199.203.75:63731|Skyblockforever] <-> DownstreamBridge <-> [main] has disconnected
+[07:14:55] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12806] <-> InitialHandler has connected
+[07:14:56] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:12806] <-> ServerConnector [main] has connected
+[07:15:33] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62063] <-> InitialHandler has connected
+[07:15:33] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62063] <-> ServerConnector [main] has connected
+[07:15:39] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12806|homan990] -> UpstreamBridge has disconnected
+[07:15:39] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12806|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[07:15:41] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12819] <-> InitialHandler has connected
+[07:15:42] [Netty Worker IO Thread #3/INFO]: [homan990|/60.242.111.20:12819] <-> ServerConnector [creative] has connected
+[07:16:14] [Netty Worker IO Thread #3/INFO]: [homan990] disconnected with: [Proxy] Lost connection to server.
+[07:16:14] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12819|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:16:17] [Netty Worker IO Thread #3/INFO]: [/60.242.111.20:12819|homan990] -> UpstreamBridge has disconnected
+[07:16:21] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12847] <-> InitialHandler has connected
+[07:16:22] [Netty Worker IO Thread #4/INFO]: [homan990|/60.242.111.20:12847] <-> ServerConnector [creative] has connected
+[07:16:36] [Netty Worker IO Thread #4/INFO]: [homan990|/60.242.111.20:12847] <-> ServerConnector [lobby] has connected
+[07:16:36] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12847|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:16:41] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12847|homan990] -> UpstreamBridge has disconnected
+[07:16:41] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:12847|homan990] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:16:42] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62063|AquaFubukiYuuki] -> UpstreamBridge has disconnected
+[07:16:42] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62063|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[07:16:44] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12888] <-> InitialHandler has connected
+[07:16:44] [Netty Worker IO Thread #2/INFO]: [/125.59.115.108:62085] <-> InitialHandler has connected
+[07:16:45] [Netty Worker IO Thread #2/INFO]: [AquaFubukiYuuki|/125.59.115.108:62085] <-> ServerConnector [main] has connected
+[07:16:46] [Netty Worker IO Thread #1/INFO]: [homan990|/60.242.111.20:12888] <-> ServerConnector [lobby] has connected
+[07:17:22] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926] <-> InitialHandler has connected
+[07:17:23] [Netty Worker IO Thread #3/INFO]: [_uWuCKL_|/119.246.50.222:53926] <-> ServerConnector [lobby] has connected
+[07:17:41] [Netty Worker IO Thread #7/INFO]: [WhiteDayDream713] disconnected with: ????????????????????
+[07:17:41] [Netty Worker IO Thread #7/INFO]: [/112.119.176.16:55773|WhiteDayDream713] -> UpstreamBridge has disconnected
+[07:17:41] [Netty Worker IO Thread #7/INFO]: [/112.119.176.16:55773|WhiteDayDream713] <-> DownstreamBridge <-> [main] has disconnected
+[07:17:50] [Netty Worker IO Thread #3/INFO]: [_uWuCKL_|/119.246.50.222:53926] <-> ServerConnector [main] has connected
+[07:17:51] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926|_uWuCKL_] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:18:04] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:56860] <-> InitialHandler has connected
+[07:18:05] [Netty Worker IO Thread #6/INFO]: [WhiteDayDream713|/112.119.176.16:56860] <-> ServerConnector [main] has connected
+[07:18:08] [Netty Worker IO Thread #0/INFO]: [/123.203.26.24:45265|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[07:18:08] [Netty Worker IO Thread #0/INFO]: [/123.203.26.24:45265|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[07:18:32] [Netty Worker IO Thread #1/INFO]: [homan990|/60.242.111.20:12888] <-> ServerConnector [creative] has connected
+[07:18:32] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12888|homan990] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:18:54] [Netty Worker IO Thread #3/INFO]: [/223.17.29.175:62350] <-> InitialHandler has connected
+[07:18:56] [Netty Worker IO Thread #3/INFO]: [narwhal_174|/223.17.29.175:62350] <-> ServerConnector [main] has connected
+[07:19:05] [Netty Worker IO Thread #1/INFO]: [homan990] disconnected with: [Proxy] Lost connection to server.
+[07:19:05] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12888|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:19:06] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:12888|homan990] -> UpstreamBridge has disconnected
+[07:19:07] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [creative] has connected
+[07:19:08] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[07:19:10] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:12950] <-> InitialHandler has connected
+[07:19:12] [Netty Worker IO Thread #5/INFO]: [homan990|/60.242.111.20:12950] <-> ServerConnector [creative] has connected
+[07:19:18] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:12950|homan990] -> UpstreamBridge has disconnected
+[07:19:18] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:12950|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:19:29] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12980] <-> InitialHandler has connected
+[07:19:30] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:12980] <-> ServerConnector [main] has connected
+[07:19:49] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:52194] <-> InitialHandler has connected
+[07:19:50] [Netty Worker IO Thread #6/INFO]: [Prozd7624|/115.43.230.15:52194] <-> ServerConnector [main] has connected
+[07:20:01] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12980|homan990] -> UpstreamBridge has disconnected
+[07:20:01] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12980|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[07:20:03] [Netty Worker IO Thread #0/INFO]: [dfju_79|/222.167.122.136:55094] <-> ServerConnector [creative] has connected
+[07:20:03] [Netty Worker IO Thread #0/INFO]: [/222.167.122.136:55094|dfju_79] <-> DownstreamBridge <-> [main] has disconnected
+[07:20:05] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12989] <-> InitialHandler has connected
+[07:20:05] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:12989] <-> ServerConnector [main] has connected
+[07:20:26] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [main] has connected
+[07:20:26] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[07:20:36] [Netty Worker IO Thread #7/INFO]: [MOGEGO|/223.16.120.120:50621] <-> ServerConnector [main] has connected
+[07:20:36] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[07:20:43] [Netty Worker IO Thread #2/INFO]: [AquaFubukiYuuki|/125.59.115.108:62085] <-> ServerConnector [creative] has connected
+[07:20:43] [Netty Worker IO Thread #2/INFO]: [/125.59.115.108:62085|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[07:20:43] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:12989] <-> ServerConnector [creative] has connected
+[07:20:43] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12989|homan990] <-> DownstreamBridge <-> [main] has disconnected
+[07:20:52] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12989|homan990] -> UpstreamBridge has disconnected
+[07:20:52] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:12989|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:20:55] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:12999] <-> InitialHandler has connected
+[07:20:56] [Netty Worker IO Thread #0/INFO]: [homan990|/60.242.111.20:12999] <-> ServerConnector [creative] has connected
+[07:21:30] [Netty Worker IO Thread #7/INFO]: [MOGEGO] disconnected with: ??????
+[07:21:30] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] -> UpstreamBridge has disconnected
+[07:21:30] [Netty Worker IO Thread #7/INFO]: [/223.16.120.120:50621|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[07:21:34] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50774] <-> InitialHandler has connected
+[07:21:35] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:50774] <-> ServerConnector [main] has connected
+[07:21:41] [Netty Worker IO Thread #0/INFO]: [homan990] disconnected with: Timed out
+[07:21:41] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:12999|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:21:58] [Netty Worker IO Thread #2/INFO]: [AquaFubukiYuuki|/125.59.115.108:62085] <-> ServerConnector [main] has connected
+[07:21:58] [Netty Worker IO Thread #2/INFO]: [/125.59.115.108:62085|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[07:22:01] [Netty Worker IO Thread #4/INFO]: [Hiroshi_shoji|/113.255.13.121:59784] <-> ServerConnector [creative] has connected
+[07:22:01] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[07:22:12] [Netty Worker IO Thread #2/INFO]: [/42.2.209.142:55054] <-> InitialHandler has connected
+[07:22:13] [Netty Worker IO Thread #2/INFO]: [Angela_Baby11|/42.2.209.142:55054] <-> ServerConnector [lobby] has connected
+[07:22:15] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:50774] <-> ServerConnector [creative] has connected
+[07:22:15] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50774|MOGEGO] <-> DownstreamBridge <-> [main] has disconnected
+[07:22:26] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:12999|homan990] -> UpstreamBridge has disconnected
+[07:22:30] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [main] has connected
+[07:22:30] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[07:22:32] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:13023] <-> InitialHandler has connected
+[07:22:32] [Netty Worker IO Thread #1/INFO]: [homan990|/60.242.111.20:13023] <-> ServerConnector [creative] has connected
+[07:22:39] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:13023|homan990] -> UpstreamBridge has disconnected
+[07:22:39] [Netty Worker IO Thread #1/INFO]: [/60.242.111.20:13023|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:22:44] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13049] <-> InitialHandler has connected
+[07:22:44] [Netty Worker IO Thread #0/INFO]: [homan990|/60.242.111.20:13049] <-> ServerConnector [creative] has connected
+[07:22:45] [Netty Worker IO Thread #2/INFO]: [/42.2.209.142:55054|Angela_Baby11] -> UpstreamBridge has disconnected
+[07:22:45] [Netty Worker IO Thread #2/INFO]: [/42.2.209.142:55054|Angela_Baby11] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:22:49] [Netty Worker IO Thread #0/INFO]: [homan990] disconnected with: ??????
+[07:22:49] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13049|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:23:05] [Netty Worker IO Thread #2/INFO]: [/114.198.176.238:1769|Milk_tea_LoLiKon] -> UpstreamBridge has disconnected
+[07:23:05] [Netty Worker IO Thread #2/INFO]: [/114.198.176.238:1769|Milk_tea_LoLiKon] <-> DownstreamBridge <-> [main] has disconnected
+[07:23:08] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13049|homan990] -> UpstreamBridge has disconnected
+[07:23:10] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4775|44465] -> UpstreamBridge has disconnected
+[07:23:10] [Netty Worker IO Thread #0/INFO]: [/180.217.251.168:4775|44465] <-> DownstreamBridge <-> [main] has disconnected
+[07:23:14] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:13072] <-> InitialHandler has connected
+[07:23:15] [Netty Worker IO Thread #5/INFO]: [homan990|/60.242.111.20:13072] <-> ServerConnector [creative] has connected
+[07:23:40] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [creative] has connected
+[07:23:40] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[07:23:52] [Netty Worker IO Thread #7/INFO]: [TpxqT|/114.137.178.30:39970] <-> ServerConnector [lobby] has connected
+[07:23:52] [Netty Worker IO Thread #7/INFO]: [/114.137.178.30:39970|TpxqT] <-> DownstreamBridge <-> [main] has disconnected
+[07:24:00] [Netty Worker IO Thread #5/INFO]: [homan990] disconnected with: Timed out
+[07:24:00] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:13072|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:24:01] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119] <-> InitialHandler has connected
+[07:24:02] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki] disconnected with: You are already connected to this proxy!
+[07:24:02] [Netty Worker IO Thread #2/INFO]: [/125.59.115.108:62085|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[07:24:02] [Netty Worker IO Thread #2/INFO]: [/125.59.115.108:62085|AquaFubukiYuuki] -> UpstreamBridge has disconnected
+[07:24:02] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [main] has connected
+[07:24:04] [Netty Worker IO Thread #7/INFO]: [TpxqT|/114.137.178.30:39970] <-> ServerConnector [main] has connected
+[07:24:04] [Netty Worker IO Thread #7/INFO]: [/114.137.178.30:39970|TpxqT] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:24:05] [Netty Worker IO Thread #1/INFO]: [/42.2.209.142:55092] <-> InitialHandler has connected
+[07:24:06] [Netty Worker IO Thread #1/INFO]: [Angela_Baby11|/42.2.209.142:55092] <-> ServerConnector [lobby] has connected
+[07:24:12] [Netty Worker IO Thread #1/INFO]: [Angela_Baby11|/42.2.209.142:55092] <-> ServerConnector [main] has connected
+[07:24:12] [Netty Worker IO Thread #1/INFO]: [Angela_Baby11|/42.2.209.142:55092] <-> ServerConnector [main] has disconnected
+[07:24:18] [Netty Worker IO Thread #1/INFO]: [/42.2.209.142:55092|Angela_Baby11] -> UpstreamBridge has disconnected
+[07:24:18] [Netty Worker IO Thread #1/INFO]: [/42.2.209.142:55092|Angela_Baby11] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:24:23] [Netty Worker IO Thread #7/INFO]: [/124.244.221.247:58078] <-> InitialHandler has connected
+[07:24:24] [Netty Worker IO Thread #4/WARN]: [/42.2.209.142:55099] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[07:24:24] [Netty Worker IO Thread #7/INFO]: [kanecy|/124.244.221.247:58078] <-> ServerConnector [main] has connected
+[07:24:50] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [creative] has connected
+[07:24:50] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[07:25:13] [Netty Worker IO Thread #5/INFO]: [/60.242.111.20:13072|homan990] -> UpstreamBridge has disconnected
+[07:25:18] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13106] <-> InitialHandler has connected
+[07:25:18] [Netty Worker IO Thread #0/INFO]: [homan990|/60.242.111.20:13106] <-> ServerConnector [creative] has connected
+[07:25:22] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13106|homan990] -> UpstreamBridge has disconnected
+[07:25:22] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13106|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:25:35] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13112] <-> InitialHandler has connected
+[07:25:36] [Netty Worker IO Thread #0/INFO]: [homan990|/60.242.111.20:13112] <-> ServerConnector [creative] has connected
+[07:25:42] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13112|homan990] -> UpstreamBridge has disconnected
+[07:25:42] [Netty Worker IO Thread #0/INFO]: [/60.242.111.20:13112|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:25:47] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:13118] <-> InitialHandler has connected
+[07:25:48] [Netty Worker IO Thread #7/INFO]: [homan990|/60.242.111.20:13118] <-> ServerConnector [creative] has connected
+[07:25:51] [Netty Worker IO Thread #2/INFO]: [/118.168.198.154:2495] <-> InitialHandler has connected
+[07:25:52] [Netty Worker IO Thread #2/INFO]: [redduck22523665|/118.168.198.154:2495] <-> ServerConnector [main] has connected
+[07:26:04] [Netty Worker IO Thread #6/INFO]: [/42.2.209.142:55228] <-> InitialHandler has connected
+[07:26:05] [Netty Worker IO Thread #6/INFO]: [Angela_Baby11|/42.2.209.142:55228] <-> ServerConnector [lobby] has connected
+[07:26:16] [Netty Worker IO Thread #6/INFO]: [Angela_Baby11|/42.2.209.142:55228] <-> ServerConnector [main] has connected
+[07:26:16] [Netty Worker IO Thread #6/INFO]: [/42.2.209.142:55228|Angela_Baby11] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:26:33] [Netty Worker IO Thread #7/INFO]: [homan990] disconnected with: Timed out
+[07:26:33] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:13118|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:27:17] [Netty Worker IO Thread #7/INFO]: [/60.242.111.20:13118|homan990] -> UpstreamBridge has disconnected
+[07:28:11] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[07:28:11] [Netty Worker IO Thread #4/INFO]: [/113.255.13.121:59784|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[07:28:20] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:13381] <-> InitialHandler has connected
+[07:28:21] [Netty Worker IO Thread #4/INFO]: [homan990|/60.242.111.20:13381] <-> ServerConnector [creative] has connected
+[07:28:25] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:13381|homan990] -> UpstreamBridge has disconnected
+[07:28:25] [Netty Worker IO Thread #4/INFO]: [/60.242.111.20:13381|homan990] <-> DownstreamBridge <-> [creative] has disconnected
+[07:28:33] [Netty Worker IO Thread #3/INFO]: [_uWuCKL_|/119.246.50.222:53926] <-> ServerConnector [lobby] has connected
+[07:28:33] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926|_uWuCKL_] <-> DownstreamBridge <-> [main] has disconnected
+[07:28:38] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:60201] <-> InitialHandler has connected
+[07:28:39] [Netty Worker IO Thread #1/INFO]: [Hiroshi_shoji|/113.255.13.121:60201] <-> ServerConnector [creative] has connected
+[07:29:02] [Netty Worker IO Thread #3/INFO]: [_uWuCKL_|/119.246.50.222:53926] <-> ServerConnector [main] has connected
+[07:29:02] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926|_uWuCKL_] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:29:24] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:52194|Prozd7624] -> UpstreamBridge has disconnected
+[07:29:24] [Netty Worker IO Thread #6/INFO]: [/115.43.230.15:52194|Prozd7624] <-> DownstreamBridge <-> [main] has disconnected
+[07:30:23] [Netty Worker IO Thread #4/INFO]: [/220.142.32.113:26368|night_ice_TW] -> UpstreamBridge has disconnected
+[07:30:23] [Netty Worker IO Thread #4/INFO]: [/220.142.32.113:26368|night_ice_TW] <-> DownstreamBridge <-> [main] has disconnected
+[07:32:38] [Netty Worker IO Thread #6/INFO]: [/58.153.107.131:50083] <-> InitialHandler has connected
+[07:32:39] [Netty Worker IO Thread #6/INFO]: [_Leave|/58.153.107.131:50083] <-> ServerConnector [main] has connected
+[07:33:24] [Netty Worker IO Thread #3/INFO]: [/223.17.29.175:62350|narwhal_174] -> UpstreamBridge has disconnected
+[07:33:24] [Netty Worker IO Thread #3/INFO]: [/223.17.29.175:62350|narwhal_174] <-> DownstreamBridge <-> [main] has disconnected
+[07:35:01] [Netty Worker IO Thread #4/INFO]: [/61.93.155.82:50398|Jayden_1028] -> UpstreamBridge has disconnected
+[07:35:01] [Netty Worker IO Thread #4/INFO]: [/61.93.155.82:50398|Jayden_1028] <-> DownstreamBridge <-> [main] has disconnected
+[07:35:12] [Netty Worker IO Thread #0/INFO]: [/114.45.84.71:60309] <-> InitialHandler has connected
+[07:35:13] [Netty Worker IO Thread #0/INFO]: [noobool|/114.45.84.71:60309] <-> ServerConnector [main] has connected
+[07:35:35] [Netty Worker IO Thread #0/INFO]: [/114.45.84.71:60309|noobool] -> UpstreamBridge has disconnected
+[07:35:35] [Netty Worker IO Thread #0/INFO]: [/114.45.84.71:60309|noobool] <-> DownstreamBridge <-> [main] has disconnected
+[07:35:40] [Netty Worker IO Thread #0/INFO]: [/61.93.155.82:51576] <-> InitialHandler has connected
+[07:35:41] [Netty Worker IO Thread #0/INFO]: [Jayden_1028|/61.93.155.82:51576] <-> ServerConnector [main] has connected
+[07:39:36] [Netty Worker IO Thread #0/INFO]: [/14.199.203.75:55041] <-> InitialHandler has connected
+[07:39:37] [Netty Worker IO Thread #0/INFO]: [Skyblockforever|/14.199.203.75:55041] <-> ServerConnector [main] has connected
+[07:40:28] [Netty Worker IO Thread #7/INFO]: [/42.75.255.197:12443] <-> InitialHandler has connected
+[07:40:30] [Netty Worker IO Thread #7/INFO]: [Kyaru19518981|/42.75.255.197:12443] <-> ServerConnector [main] has connected
+[07:40:54] [Netty Worker IO Thread #1/INFO]: [/114.46.44.189:5672] <-> InitialHandler has connected
+[07:40:55] [Netty Worker IO Thread #1/INFO]: [Tsai_timmy_TW|/114.46.44.189:5672] <-> ServerConnector [main] has connected
+[07:42:30] [Netty Worker IO Thread #3/INFO]: [/61.231.58.143:54315] <-> InitialHandler has connected
+[07:42:31] [Netty Worker IO Thread #3/INFO]: [ashley833|/61.231.58.143:54315] <-> ServerConnector [main] has connected
+[07:43:01] [Netty Worker IO Thread #0/WARN]: [/42.98.123.95:62642] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[07:43:08] [Netty Worker IO Thread #3/INFO]: [/61.231.58.143:54315|ashley833] -> UpstreamBridge has disconnected
+[07:43:08] [Netty Worker IO Thread #3/INFO]: [/61.231.58.143:54315|ashley833] <-> DownstreamBridge <-> [main] has disconnected
+[07:44:02] [Netty Worker IO Thread #0/INFO]: [/61.231.58.143:54454] <-> InitialHandler has connected
+[07:44:03] [Netty Worker IO Thread #0/INFO]: [ashley833|/61.231.58.143:54454] <-> ServerConnector [main] has connected
+[07:45:30] [Netty Worker IO Thread #7/INFO]: [Kyaru19518981] disconnected with: Timed out
+[07:45:30] [Netty Worker IO Thread #7/INFO]: [/42.75.255.197:12443|Kyaru19518981] <-> DownstreamBridge <-> [main] has disconnected
+[07:45:33] [Netty Worker IO Thread #0/INFO]: [/61.231.58.143:54454|ashley833] -> UpstreamBridge has disconnected
+[07:45:33] [Netty Worker IO Thread #0/INFO]: [/61.231.58.143:54454|ashley833] <-> DownstreamBridge <-> [main] has disconnected
+[07:45:59] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:60201|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[07:45:59] [Netty Worker IO Thread #1/INFO]: [/113.255.13.121:60201|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[07:46:26] [Netty Worker IO Thread #7/INFO]: [/42.75.255.197:12443|Kyaru19518981] -> UpstreamBridge has disconnected
+[07:48:19] [Netty Worker IO Thread #0/INFO]: [/14.199.203.75:55041|Skyblockforever] -> UpstreamBridge has disconnected
+[07:48:19] [Netty Worker IO Thread #0/INFO]: [/14.199.203.75:55041|Skyblockforever] <-> DownstreamBridge <-> [main] has disconnected
+[07:49:12] [Netty Worker IO Thread #7/INFO]: [/182.155.185.96:63244|Hikigaya_NCV0615] -> UpstreamBridge has disconnected
+[07:49:12] [Netty Worker IO Thread #7/INFO]: [/182.155.185.96:63244|Hikigaya_NCV0615] <-> DownstreamBridge <-> [main] has disconnected
+[07:49:19] [Netty Worker IO Thread #6/INFO]: [/114.45.84.71:3638|knight_23] -> UpstreamBridge has disconnected
+[07:49:19] [Netty Worker IO Thread #6/INFO]: [/114.45.84.71:3638|knight_23] <-> DownstreamBridge <-> [main] has disconnected
+[07:49:53] [Netty Worker IO Thread #1/INFO]: [/182.155.185.96:63713] <-> InitialHandler has connected
+[07:49:54] [Netty Worker IO Thread #1/INFO]: [Hikigaya_NCV0615|/182.155.185.96:63713] <-> ServerConnector [main] has connected
+[07:50:23] [Netty Worker IO Thread #3/INFO]: [/101.10.108.151:6320] <-> InitialHandler has connected
+[07:50:23] [Netty Worker IO Thread #3/INFO]: [PandaRound|/101.10.108.151:6320] <-> ServerConnector [main] has connected
+[07:50:36] [Netty Worker IO Thread #3/INFO]: [/101.10.108.151:6320|PandaRound] -> UpstreamBridge has disconnected
+[07:50:36] [Netty Worker IO Thread #3/INFO]: [/101.10.108.151:6320|PandaRound] <-> DownstreamBridge <-> [main] has disconnected
+[07:53:54] [Netty Worker IO Thread #5/INFO]: [/59.102.187.95:2148|Lan_days] -> UpstreamBridge has disconnected
+[07:53:54] [Netty Worker IO Thread #5/INFO]: [/59.102.187.95:2148|Lan_days] <-> DownstreamBridge <-> [main] has disconnected
+[07:56:10] [Netty Worker IO Thread #6/INFO]: [/42.2.209.142:55228|Angela_Baby11] -> UpstreamBridge has disconnected
+[07:56:10] [Netty Worker IO Thread #6/INFO]: [/42.2.209.142:55228|Angela_Baby11] <-> DownstreamBridge <-> [main] has disconnected
+[07:57:24] [Netty Worker IO Thread #0/INFO]: [/42.75.255.197:12535] <-> InitialHandler has connected
+[07:57:25] [Netty Worker IO Thread #0/INFO]: [Kyaru19518981|/42.75.255.197:12535] <-> ServerConnector [main] has connected
+[07:57:36] [Netty Worker IO Thread #6/INFO]: [/58.177.0.164:54103|caiyun123] -> UpstreamBridge has disconnected
+[07:57:36] [Netty Worker IO Thread #6/INFO]: [/58.177.0.164:54103|caiyun123] <-> DownstreamBridge <-> [main] has disconnected
+[07:57:59] [Netty Worker IO Thread #0/INFO]: [/114.198.176.238:3324] <-> InitialHandler has connected
+[07:58:00] [Netty Worker IO Thread #0/INFO]: [Milk_tea_LoLiKon|/114.198.176.238:3324] <-> ServerConnector [main] has connected
+[08:00:02] [Netty Worker IO Thread #1/INFO]: [/114.46.44.189:5672|Tsai_timmy_TW] -> UpstreamBridge has disconnected
+[08:00:02] [Netty Worker IO Thread #1/INFO]: [/114.46.44.189:5672|Tsai_timmy_TW] <-> DownstreamBridge <-> [main] has disconnected
+[08:01:41] [Netty Worker IO Thread #4/INFO]: [/114.46.44.189:5706] <-> InitialHandler has connected
+[08:01:42] [Netty Worker IO Thread #4/INFO]: [Tsai_timmy_TW|/114.46.44.189:5706] <-> ServerConnector [main] has connected
+[08:05:39] [Netty Worker IO Thread #7/INFO]: [/113.254.217.209:58456|WhoIsEmilia] -> UpstreamBridge has disconnected
+[08:05:39] [Netty Worker IO Thread #7/INFO]: [/113.254.217.209:58456|WhoIsEmilia] <-> DownstreamBridge <-> [main] has disconnected
+[08:05:59] [Netty Worker IO Thread #4/INFO]: [/114.46.44.189:5706|Tsai_timmy_TW] -> UpstreamBridge has disconnected
+[08:05:59] [Netty Worker IO Thread #4/INFO]: [/114.46.44.189:5706|Tsai_timmy_TW] <-> DownstreamBridge <-> [main] has disconnected
+[08:06:30] [Netty Worker IO Thread #0/INFO]: [/114.39.46.233:59036] <-> InitialHandler has connected
+[08:06:39] [Netty Worker IO Thread #6/INFO]: [/114.39.46.233:59039] <-> InitialHandler has connected
+[08:06:41] [Netty Worker IO Thread #1/INFO]: [/114.39.46.233:59041] <-> InitialHandler has connected
+[08:07:54] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926|_uWuCKL_] -> UpstreamBridge has disconnected
+[08:07:54] [Netty Worker IO Thread #3/INFO]: [/119.246.50.222:53926|_uWuCKL_] <-> DownstreamBridge <-> [main] has disconnected
+[08:09:11] [Netty Worker IO Thread #2/INFO]: [/114.39.46.233:59144] <-> InitialHandler has connected
+[08:09:50] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:63271|MilkYw4iL] -> UpstreamBridge has disconnected
+[08:09:50] [Netty Worker IO Thread #2/INFO]: [/119.247.127.160:63271|MilkYw4iL] <-> DownstreamBridge <-> [main] has disconnected
+[08:10:50] [Netty Worker IO Thread #6/INFO]: [/59.148.138.83:54223|Jacksonleung223] -> UpstreamBridge has disconnected
+[08:10:50] [Netty Worker IO Thread #6/INFO]: [/59.148.138.83:54223|Jacksonleung223] <-> DownstreamBridge <-> [main] has disconnected
+[08:12:34] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [main] has connected
+[08:12:34] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[08:13:46] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [creative] has connected
+[08:13:46] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[08:15:08] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [main] has connected
+[08:15:08] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[08:15:20] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [creative] has connected
+[08:15:20] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[08:16:55] [Netty Worker IO Thread #1/INFO]: [/182.155.185.96:63713|Hikigaya_NCV0615] -> UpstreamBridge has disconnected
+[08:16:55] [Netty Worker IO Thread #1/INFO]: [/182.155.185.96:63713|Hikigaya_NCV0615] <-> DownstreamBridge <-> [main] has disconnected
+[08:20:57] [Netty Worker IO Thread #7/INFO]: [/119.237.87.82:53001] <-> InitialHandler has connected
+[08:20:57] [Netty Worker IO Thread #7/INFO]: [____KING|/119.237.87.82:53001] <-> ServerConnector [main] has connected
+[08:20:57] [Netty Worker IO Thread #7/INFO]: [____KING] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[08:20:57] [Netty Worker IO Thread #7/INFO]: [/119.237.87.82:53001|____KING] -> UpstreamBridge has disconnected
+[08:20:57] [Netty Worker IO Thread #7/INFO]: [____KING|/119.237.87.82:53001] <-> ServerConnector [main] has disconnected
+[08:21:09] [Netty Worker IO Thread #7/INFO]: [/114.44.159.34:12997] <-> InitialHandler has connected
+[08:21:10] [Netty Worker IO Thread #7/INFO]: [hayate0913|/114.44.159.34:12997] <-> ServerConnector [main] has connected
+[08:21:42] [Netty Worker IO Thread #2/INFO]: [/119.237.87.82:53188] <-> InitialHandler has connected
+[08:21:43] [Netty Worker IO Thread #2/INFO]: [____KING|/119.237.87.82:53188] <-> ServerConnector [main] has connected
+[08:21:48] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [main] has connected
+[08:21:48] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [creative] has disconnected
+[08:22:02] [Netty Worker IO Thread #3/INFO]: [Alfredtai|/223.19.227.168:56763] <-> ServerConnector [creative] has connected
+[08:22:02] [Netty Worker IO Thread #3/INFO]: [/223.19.227.168:56763|Alfredtai] <-> DownstreamBridge <-> [main] has disconnected
+[08:23:15] [Netty Worker IO Thread #2/INFO]: [/119.237.87.82:53188|____KING] -> UpstreamBridge has disconnected
+[08:23:15] [Netty Worker IO Thread #2/INFO]: [/119.237.87.82:53188|____KING] <-> DownstreamBridge <-> [main] has disconnected
+[08:23:18] [Netty Worker IO Thread #3/INFO]: [/119.237.87.82:53219] <-> InitialHandler has connected
+[08:23:19] [Netty Worker IO Thread #3/INFO]: [____KING|/119.237.87.82:53219] <-> ServerConnector [main] has connected
+[08:23:27] [Netty Worker IO Thread #3/INFO]: [____KING|/119.237.87.82:53219] <-> ServerConnector [lobby] has connected
+[08:23:27] [Netty Worker IO Thread #3/INFO]: [/119.237.87.82:53219|____KING] <-> DownstreamBridge <-> [main] has disconnected
+[08:23:46] [Netty Worker IO Thread #3/INFO]: [/119.237.87.82:53219|____KING] -> UpstreamBridge has disconnected
+[08:23:46] [Netty Worker IO Thread #3/INFO]: [/119.237.87.82:53219|____KING] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:25:07] [Netty Worker IO Thread #7/WARN]: [/220.132.130.168:26763] <-> InitialHandler - read timed out
+[08:27:00] [Netty Worker IO Thread #7/INFO]: [/114.137.178.30:39970|TpxqT] -> UpstreamBridge has disconnected
+[08:27:00] [Netty Worker IO Thread #7/INFO]: [/114.137.178.30:39970|TpxqT] <-> DownstreamBridge <-> [main] has disconnected
+[08:27:51] [Netty Worker IO Thread #7/INFO]: [/110.28.35.174:62107] <-> InitialHandler has connected
+[08:27:52] [Netty Worker IO Thread #7/INFO]: [BoCheng_TW|/110.28.35.174:62107] <-> ServerConnector [lobby] has connected
+[08:27:53] [Netty Worker IO Thread #4/INFO]: [/222.167.122.39:64319] <-> InitialHandler has connected
+[08:27:54] [Netty Worker IO Thread #4/INFO]: [onehour999|/222.167.122.39:64319] <-> ServerConnector [main] has connected
+[08:28:06] [Netty Worker IO Thread #7/INFO]: [BoCheng_TW|/110.28.35.174:62107] <-> ServerConnector [main] has connected
+[08:28:06] [Netty Worker IO Thread #7/INFO]: [/110.28.35.174:62107|BoCheng_TW] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:28:19] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:60606] <-> InitialHandler has connected
+[08:28:21] [Netty Worker IO Thread #2/INFO]: [Hiroshi_shoji|/113.255.13.121:60606] <-> ServerConnector [creative] has connected
+[08:29:47] [Netty Worker IO Thread #2/INFO]: [Hiroshi_shoji|/113.255.13.121:60606] <-> ServerConnector [main] has connected
+[08:29:47] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:60606|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[08:30:03] [Netty Worker IO Thread #7/INFO]: [BoCheng_TW] disconnected with: ????????????????????
+[08:30:03] [Netty Worker IO Thread #7/INFO]: [/110.28.35.174:62107|BoCheng_TW] -> UpstreamBridge has disconnected
+[08:30:03] [Netty Worker IO Thread #7/INFO]: [/110.28.35.174:62107|BoCheng_TW] <-> DownstreamBridge <-> [main] has disconnected
+[08:30:08] [Netty Worker IO Thread #0/INFO]: [/14.199.105.241:53274|infinity_7] -> UpstreamBridge has disconnected
+[08:30:08] [Netty Worker IO Thread #0/INFO]: [/14.199.105.241:53274|infinity_7] <-> DownstreamBridge <-> [main] has disconnected
+[08:30:10] [Netty Worker IO Thread #4/WARN]: [/14.199.105.241:53614] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[08:30:51] [Netty Worker IO Thread #4/INFO]: [/222.167.122.39:64319|onehour999] -> UpstreamBridge has disconnected
+[08:30:51] [Netty Worker IO Thread #4/INFO]: [/222.167.122.39:64319|onehour999] <-> DownstreamBridge <-> [main] has disconnected
+[08:31:19] [Netty Worker IO Thread #7/INFO]: [me9umin_desu] disconnected with: [Proxy] Lost connection to server.
+[08:31:19] [Netty Worker IO Thread #7/INFO]: [/119.247.171.204:51358|me9umin_desu] <-> DownstreamBridge <-> [main] has disconnected
+[08:32:40] [Netty Worker IO Thread #4/INFO]: [/1.174.143.207:1323] <-> InitialHandler has connected
+[08:32:48] [Netty Worker IO Thread #0/INFO]: [/1.174.143.207:1328] <-> InitialHandler has connected
+[08:32:50] [Netty Worker IO Thread #0/INFO]: [Howard1212|/1.174.143.207:1328] <-> ServerConnector [main] has connected
+[08:32:59] [Netty Worker IO Thread #7/WARN]: [/119.247.171.204:51358|me9umin_desu] -> UpstreamBridge - read timed out
+[08:32:59] [Netty Worker IO Thread #7/INFO]: [/119.247.171.204:51358|me9umin_desu] -> UpstreamBridge has disconnected
+[08:33:53] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:57798|OwO_45] -> UpstreamBridge has disconnected
+[08:33:53] [Netty Worker IO Thread #4/INFO]: [/223.16.30.85:57798|OwO_45] <-> DownstreamBridge <-> [main] has disconnected
+[08:38:16] [Netty Worker IO Thread #2/INFO]: [Hiroshi_shoji|/113.255.13.121:60606] <-> ServerConnector [creative] has connected
+[08:38:16] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:60606|Hiroshi_shoji] <-> DownstreamBridge <-> [main] has disconnected
+[08:38:52] [Netty Worker IO Thread #0/INFO]: [/119.247.171.204:52592] <-> InitialHandler has connected
+[08:38:53] [Netty Worker IO Thread #0/INFO]: [me9umin_desu|/119.247.171.204:52592] <-> ServerConnector [main] has connected
+[08:40:09] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50774|MOGEGO] -> UpstreamBridge has disconnected
+[08:40:09] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50774|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[08:40:16] [Netty Worker IO Thread #2/INFO]: [/122.99.6.49:4404|66115544] -> UpstreamBridge has disconnected
+[08:40:16] [Netty Worker IO Thread #2/INFO]: [/122.99.6.49:4404|66115544] <-> DownstreamBridge <-> [main] has disconnected
+[08:40:24] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50957] <-> InitialHandler has connected
+[08:40:25] [Netty Worker IO Thread #5/INFO]: [MOGEGO|/223.16.120.120:50957] <-> ServerConnector [creative] has connected
+[08:42:29] [Netty Worker IO Thread #0/INFO]: [/61.231.245.132:63467|XuePastoral] -> UpstreamBridge has disconnected
+[08:42:29] [Netty Worker IO Thread #0/INFO]: [/61.231.245.132:63467|XuePastoral] <-> DownstreamBridge <-> [main] has disconnected
+[08:42:48] [Netty Worker IO Thread #2/WARN]: [/202.80.143.144:59136] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[08:43:45] [Netty Worker IO Thread #6/INFO]: [/114.40.62.60:53375] <-> InitialHandler has connected
+[08:43:45] [Netty Worker IO Thread #6/INFO]: [Skullkarl|/114.40.62.60:53375] <-> ServerConnector [main] has connected
+[08:43:45] [Netty Worker IO Thread #6/INFO]: [Skullkarl] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[08:43:45] [Netty Worker IO Thread #6/INFO]: [/114.40.62.60:53375|Skullkarl] -> UpstreamBridge has disconnected
+[08:43:45] [Netty Worker IO Thread #6/INFO]: [Skullkarl|/114.40.62.60:53375] <-> ServerConnector [main] has disconnected
+[08:43:58] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:60220] <-> InitialHandler has connected
+[08:44:00] [Netty Worker IO Thread #7/INFO]: [jygh_Galaxy|/218.166.163.13:60220] <-> ServerConnector [main] has connected
+[08:44:19] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:60606|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[08:44:19] [Netty Worker IO Thread #2/INFO]: [/113.255.13.121:60606|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[08:45:39] [Netty Worker IO Thread #6/INFO]: [/1.165.150.160:2948] <-> InitialHandler has connected
+[08:45:41] [Netty Worker IO Thread #6/INFO]: [OuO_Migs_QAQ|/1.165.150.160:2948] <-> ServerConnector [main] has connected
+[08:46:19] [Netty Worker IO Thread #7/INFO]: [jygh_Galaxy] disconnected with: ????????????????????
+[08:46:19] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:60220|jygh_Galaxy] -> UpstreamBridge has disconnected
+[08:46:19] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:60220|jygh_Galaxy] <-> DownstreamBridge <-> [main] has disconnected
+[08:46:38] [Netty Worker IO Thread #6/INFO]: [/161.81.154.164:59676] <-> InitialHandler has connected
+[08:46:38] [Netty Worker IO Thread #7/INFO]: [/218.166.163.13:60232] <-> InitialHandler has connected
+[08:46:38] [Netty Worker IO Thread #6/INFO]: [Pqwer|/161.81.154.164:59676] <-> ServerConnector [main] has connected
+[08:46:39] [Netty Worker IO Thread #7/INFO]: [jygh_Galaxy|/218.166.163.13:60232] <-> ServerConnector [main] has connected
+[08:47:00] [Netty Worker IO Thread #2/INFO]: [/61.231.245.132:65088] <-> InitialHandler has connected
+[08:47:02] [Netty Worker IO Thread #2/INFO]: [XuePastoral|/61.231.245.132:65088] <-> ServerConnector [main] has connected
+[08:47:04] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [dungeon] has connected
+[08:47:04] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[08:47:18] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [creative] has connected
+[08:47:18] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [dungeon] has disconnected
+[08:47:51] [Netty Worker IO Thread #0/INFO]: [/210.209.189.88:49933] <-> InitialHandler has connected
+[08:47:52] [Netty Worker IO Thread #0/INFO]: [zx60411zx|/210.209.189.88:49933] <-> ServerConnector [main] has connected
+[08:48:18] [Netty Worker IO Thread #5/WARN]: [/218.93.207.218:37438] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[08:48:46] [Netty Worker IO Thread #4/INFO]: [/61.239.214.88:60835] <-> InitialHandler has connected
+[08:51:22] [Netty Worker IO Thread #2/INFO]: [/61.231.245.132:65088|XuePastoral] -> UpstreamBridge has disconnected
+[08:51:22] [Netty Worker IO Thread #2/INFO]: [/61.231.245.132:65088|XuePastoral] <-> DownstreamBridge <-> [main] has disconnected
+[08:52:55] [Netty Worker IO Thread #6/INFO]: [/138.19.178.165:59714|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[08:52:55] [Netty Worker IO Thread #6/INFO]: [/138.19.178.165:59714|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[08:53:14] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:60830] <-> InitialHandler has connected
+[08:53:15] [Netty Worker IO Thread #5/INFO]: [Hiroshi_shoji|/113.255.13.121:60830] <-> ServerConnector [creative] has connected
+[08:53:23] [Netty Worker IO Thread #2/INFO]: [/138.19.178.165:61317] <-> InitialHandler has connected
+[08:53:23] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon|/138.19.178.165:61317] <-> ServerConnector [main] has connected
+[08:54:39] [Netty Worker IO Thread #3/INFO]: [/61.239.214.88:60989] <-> InitialHandler has connected
+[08:54:41] [Netty Worker IO Thread #3/INFO]: [xiaonai_1530|/61.239.214.88:60989] <-> ServerConnector [main] has connected
+[08:58:17] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:56860|WhiteDayDream713] -> UpstreamBridge has disconnected
+[08:58:17] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:56860|WhiteDayDream713] <-> DownstreamBridge <-> [main] has disconnected
+[08:58:18] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:57071] <-> InitialHandler has connected
+[08:58:20] [Netty Worker IO Thread #6/INFO]: [WhiteDayDream713|/112.119.176.16:57071] <-> ServerConnector [main] has connected
+[09:03:25] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:48879] <-> InitialHandler has connected
+[09:03:26] [Netty Worker IO Thread #3/INFO]: [Yolo_Leon7104|/123.203.26.24:48879] <-> ServerConnector [main] has connected
+[09:04:31] [Netty Worker IO Thread #1/INFO]: [/111.250.173.141:61171|cnn8787] -> UpstreamBridge has disconnected
+[09:04:31] [Netty Worker IO Thread #1/INFO]: [/111.250.173.141:61171|cnn8787] <-> DownstreamBridge <-> [main] has disconnected
+[09:04:34] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:57071|WhiteDayDream713] -> UpstreamBridge has disconnected
+[09:04:34] [Netty Worker IO Thread #6/INFO]: [/112.119.176.16:57071|WhiteDayDream713] <-> DownstreamBridge <-> [main] has disconnected
+[09:05:30] [Netty Worker IO Thread #6/INFO]: [/161.81.154.164:59676|Pqwer] -> UpstreamBridge has disconnected
+[09:05:30] [Netty Worker IO Thread #6/INFO]: [/161.81.154.164:59676|Pqwer] <-> DownstreamBridge <-> [main] has disconnected
+[09:07:13] [Netty Worker IO Thread #5/INFO]: [/125.59.178.115:52049] <-> InitialHandler has connected
+[09:07:15] [Netty Worker IO Thread #5/INFO]: [AlexCFC|/125.59.178.115:52049] <-> ServerConnector [main] has connected
+[09:08:49] [Netty Worker IO Thread #2/INFO]: [/180.217.196.99:56104] <-> InitialHandler has connected
+[09:08:53] [Netty Worker IO Thread #2/INFO]: [PedroLopez|/180.217.196.99:56104] <-> ServerConnector [main] has connected
+[09:10:06] [Netty Worker IO Thread #2/INFO]: [/180.217.196.99:56104|PedroLopez] -> UpstreamBridge has disconnected
+[09:10:06] [Netty Worker IO Thread #2/INFO]: [/180.217.196.99:56104|PedroLopez] <-> DownstreamBridge <-> [main] has disconnected
+[09:13:14] [Netty Worker IO Thread #5/INFO]: [MOGEGO] disconnected with: [Proxy] Lost connection to server.
+[09:13:14] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50957|MOGEGO] <-> DownstreamBridge <-> [creative] has disconnected
+[09:13:14] [Netty Worker IO Thread #5/INFO]: [/223.16.120.120:50957|MOGEGO] -> UpstreamBridge has disconnected
+[09:14:52] [Netty Worker IO Thread #1/INFO]: [/223.16.120.120:51077] <-> InitialHandler has connected
+[09:14:53] [Netty Worker IO Thread #1/INFO]: [MOGEGO|/223.16.120.120:51077] <-> ServerConnector [creative] has connected
+[09:14:54] [Netty Worker IO Thread #5/INFO]: [/125.59.178.115:52049|AlexCFC] -> UpstreamBridge has disconnected
+[09:14:54] [Netty Worker IO Thread #5/INFO]: [/125.59.178.115:52049|AlexCFC] <-> DownstreamBridge <-> [main] has disconnected
+[09:15:48] [Netty Worker IO Thread #4/INFO]: [/223.16.7.163:54728|takagi__san] -> UpstreamBridge has disconnected
+[09:15:48] [Netty Worker IO Thread #4/INFO]: [/223.16.7.163:54728|takagi__san] <-> DownstreamBridge <-> [main] has disconnected
+[09:16:13] [Netty Worker IO Thread #4/WARN]: [/118.161.133.92:59889] <-> InitialHandler - NativeIoException: readAddress(..) failed: Connection reset by peer
+[09:18:57] [Netty Worker IO Thread #0/INFO]: [/223.16.7.163:59941] <-> InitialHandler has connected
+[09:18:59] [Netty Worker IO Thread #0/INFO]: [takagi__san|/223.16.7.163:59941] <-> ServerConnector [main] has connected
+[09:24:01] [Netty Worker IO Thread #2/INFO]: [/223.16.47.235:1935] <-> InitialHandler has connected
+[09:24:01] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:48879|Yolo_Leon7104] -> UpstreamBridge has disconnected
+[09:24:01] [Netty Worker IO Thread #3/INFO]: [/123.203.26.24:48879|Yolo_Leon7104] <-> DownstreamBridge <-> [main] has disconnected
+[09:24:02] [Netty Worker IO Thread #2/INFO]: [SunSyn|/223.16.47.235:1935] <-> ServerConnector [main] has connected
+[09:24:07] [Netty Worker IO Thread #0/INFO]: [/114.198.176.238:3324|Milk_tea_LoLiKon] -> UpstreamBridge has disconnected
+[09:24:07] [Netty Worker IO Thread #0/INFO]: [/114.198.176.238:3324|Milk_tea_LoLiKon] <-> DownstreamBridge <-> [main] has disconnected
+[09:24:15] [Netty Worker IO Thread #1/INFO]: [/211.75.2.60:57534] <-> InitialHandler has connected
+[09:24:15] [Netty Worker IO Thread #1/INFO]: [Snowly_Wolf|/211.75.2.60:57534] <-> ServerConnector [lobby] has connected
+[09:24:52] [Netty Worker IO Thread #1/INFO]: [/211.75.2.60:57534|Snowly_Wolf] -> UpstreamBridge has disconnected
+[09:24:52] [Netty Worker IO Thread #1/INFO]: [/211.75.2.60:57534|Snowly_Wolf] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:26:31] [Netty Worker IO Thread #6/INFO]: [/58.153.107.131:50083|_Leave] -> UpstreamBridge has disconnected
+[09:26:31] [Netty Worker IO Thread #6/INFO]: [/58.153.107.131:50083|_Leave] <-> DownstreamBridge <-> [main] has disconnected
+[09:27:00] [Netty Worker IO Thread #6/INFO]: [/122.99.6.49:2626|GiveMeLikeThat] -> UpstreamBridge has disconnected
+[09:27:00] [Netty Worker IO Thread #6/INFO]: [/122.99.6.49:2626|GiveMeLikeThat] <-> DownstreamBridge <-> [main] has disconnected
+[09:29:38] [Netty Worker IO Thread #5/INFO]: [Hiroshi_shoji] disconnected with: [Proxy] Lost connection to server.
+[09:29:38] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:60830|Hiroshi_shoji] <-> DownstreamBridge <-> [creative] has disconnected
+[09:29:38] [Netty Worker IO Thread #5/INFO]: [/113.255.13.121:60830|Hiroshi_shoji] -> UpstreamBridge has disconnected
+[09:32:53] [Netty Worker IO Thread #2/INFO]: [/101.136.20.51:17725] <-> InitialHandler has connected
+[09:32:54] [Netty Worker IO Thread #2/INFO]: [Kirin_224532|/101.136.20.51:17725] <-> ServerConnector [lobby] has connected
+[09:34:31] [Netty Worker IO Thread #2/INFO]: [Kirin_224532|/101.136.20.51:17725] <-> ServerConnector [main] has connected
+[09:34:31] [Netty Worker IO Thread #2/INFO]: [/101.136.20.51:17725|Kirin_224532] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:35:43] [Netty Worker IO Thread #2/INFO]: [/116.241.42.129:60937] <-> InitialHandler has connected
+[09:35:45] [Netty Worker IO Thread #2/INFO]: [curry_Chan|/116.241.42.129:60937] <-> ServerConnector [main] has connected
+[09:35:58] [Netty Worker IO Thread #7/INFO]: [/219.79.164.175:62988|HeiHei1011] -> UpstreamBridge has disconnected
+[09:35:58] [Netty Worker IO Thread #7/INFO]: [/219.79.164.175:62988|HeiHei1011] <-> DownstreamBridge <-> [main] has disconnected
+[09:36:01] [Netty Worker IO Thread #6/INFO]: [/219.79.164.175:64066] <-> InitialHandler has connected
+[09:36:02] [Netty Worker IO Thread #6/INFO]: [HeiHei1011|/219.79.164.175:64066] <-> ServerConnector [main] has connected
+[09:36:22] [Netty Worker IO Thread #2/INFO]: [/116.241.42.129:60937|curry_Chan] -> UpstreamBridge has disconnected
+[09:36:22] [Netty Worker IO Thread #2/INFO]: [/116.241.42.129:60937|curry_Chan] <-> DownstreamBridge <-> [main] has disconnected
+[09:36:39] [Netty Worker IO Thread #0/WARN]: [/42.75.255.197:12535|Kyaru19518981] -> UpstreamBridge - NativeIoException: readAddress(..) failed: Connection reset by peer
+[09:36:39] [Netty Worker IO Thread #0/INFO]: [Kyaru19518981] disconnected with: NativeIoException : readAddress(..) failed: Connection reset by peer
+[09:36:39] [Netty Worker IO Thread #0/INFO]: [/42.75.255.197:12535|Kyaru19518981] <-> DownstreamBridge <-> [main] has disconnected
+[09:36:39] [Netty Worker IO Thread #0/INFO]: [/42.75.255.197:12535|Kyaru19518981] -> UpstreamBridge has disconnected
+[09:37:02] [Netty Worker IO Thread #4/INFO]: [/223.138.51.224:5014] <-> InitialHandler has connected
+[09:37:04] [Netty Worker IO Thread #4/INFO]: [Kyaru19518981|/223.138.51.224:5014] <-> ServerConnector [main] has connected
+[09:38:50] [Netty Worker IO Thread #3/INFO]: [/61.231.245.132:49624] <-> InitialHandler has connected
+[09:38:52] [Netty Worker IO Thread #3/INFO]: [XuePastoral|/61.231.245.132:49624] <-> ServerConnector [main] has connected
+[09:41:51] [Netty Worker IO Thread #1/INFO]: [/42.98.222.113:63077] <-> InitialHandler has connected
+[09:41:52] [Netty Worker IO Thread #1/INFO]: [YotsuyaMiko|/42.98.222.113:63077] <-> ServerConnector [main] has connected
+[09:45:59] [Netty Worker IO Thread #2/INFO]: [/1.175.113.159:51518] <-> InitialHandler has connected
+[09:46:01] [Netty Worker IO Thread #2/INFO]: [Pak_Fa|/1.175.113.159:51518] <-> ServerConnector [main] has connected
+[09:46:01] [Netty Worker IO Thread #2/INFO]: [Pak_Fa] disconnected with: Kicked whilst connecting to main: ????????? 1.15.2 ???????
+[09:46:01] [Netty Worker IO Thread #2/INFO]: [/1.175.113.159:51518|Pak_Fa] -> UpstreamBridge has disconnected
+[09:46:01] [Netty Worker IO Thread #2/INFO]: [Pak_Fa|/1.175.113.159:51518] <-> ServerConnector [main] has disconnected
+[09:46:54] [Netty Worker IO Thread #2/INFO]: [/36.232.21.248:54621|Ender_Archer_bob] -> UpstreamBridge has disconnected
+[09:46:54] [Netty Worker IO Thread #2/INFO]: [/36.232.21.248:54621|Ender_Archer_bob] <-> DownstreamBridge <-> [main] has disconnected
+[09:51:54] [Netty Worker IO Thread #2/INFO]: [/1.173.224.197:6933] <-> InitialHandler has connected
+[09:51:55] [Netty Worker IO Thread #2/INFO]: [Lunpeng|/1.173.224.197:6933] <-> ServerConnector [main] has connected
+[09:53:43] [Netty Worker IO Thread #2/INFO]: [AI_Asada_Sinon] disconnected with: [Proxy] Lost connection to server.
+[09:53:43] [Netty Worker IO Thread #2/INFO]: [/138.19.178.165:61317|AI_Asada_Sinon] <-> DownstreamBridge <-> [main] has disconnected
+[09:55:23] [Netty Worker IO Thread #2/WARN]: [/138.19.178.165:61317|AI_Asada_Sinon] -> UpstreamBridge - read timed out
+[09:55:23] [Netty Worker IO Thread #2/INFO]: [/138.19.178.165:61317|AI_Asada_Sinon] -> UpstreamBridge has disconnected
+[09:58:02] [Netty Worker IO Thread #0/INFO]: [/210.66.66.41:61701|Ciel0818] -> UpstreamBridge has disconnected
+[09:58:02] [Netty Worker IO Thread #0/INFO]: [/210.66.66.41:61701|Ciel0818] <-> DownstreamBridge <-> [main] has disconnected
+[09:59:39] [Netty Worker IO Thread #6/INFO]: [/1.200.223.66:12723] <-> InitialHandler has connected
+[09:59:41] [Netty Worker IO Thread #6/INFO]: [t0005|/1.200.223.66:12723] <-> ServerConnector [main] has connected
+[09:59:47] [Netty Worker IO Thread #7/INFO]: [/116.241.42.129:50140] <-> InitialHandler has connected
+[09:59:48] [Netty Worker IO Thread #7/INFO]: [curry_Chan|/116.241.42.129:50140] <-> ServerConnector [main] has connected
+[10:02:31] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [dungeon] has connected
+[10:02:31] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [creative] has disconnected
+[10:03:17] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [main] has connected
+[10:03:17] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [dungeon] has disconnected
+[10:03:28] [Netty Worker IO Thread #6/INFO]: [/1.200.223.66:12723|t0005] -> UpstreamBridge has disconnected
+[10:03:28] [Netty Worker IO Thread #6/INFO]: [/1.200.223.66:12723|t0005] <-> DownstreamBridge <-> [main] has disconnected
+[10:05:10] [Netty Worker IO Thread #1/INFO]: [/111.250.173.141:50340] <-> InitialHandler has connected
+[10:05:10] [Netty Worker IO Thread #1/INFO]: [cnn8787|/111.250.173.141:50340] <-> ServerConnector [main] has connected
+[10:05:20] [Netty Worker IO Thread #6/INFO]: [AquaFubukiYuuki|/125.59.115.108:62119] <-> ServerConnector [creative] has connected
+[10:05:20] [Netty Worker IO Thread #6/INFO]: [/125.59.115.108:62119|AquaFubukiYuuki] <-> DownstreamBridge <-> [main] has disconnected
+[10:05:32] [Netty Worker IO Thread #2/INFO]: [/101.136.20.51:17725|Kirin_224532] -> UpstreamBridge has disconnected
+[10:05:32] [Netty Worker IO Thread #2/INFO]: [/101.136.20.51:17725|Kirin_224532] <-> DownstreamBridge <-> [main] has disconnected

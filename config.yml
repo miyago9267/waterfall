@@ -56,37 +56,37 @@ disabled_commands:
 servers:
   mods:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25562
+    address: 138.19.178.165:25562
     restricted: false
   wows:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25564
+    address: 138.19.178.165:25564
     restricted: false
   lobby:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25563
+    address: 138.19.178.165:25563
     restricted: false
   main:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25566
+    address: 138.19.178.165:25566
     restricted: false
   event:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25567
+    address: 138.19.178.165:25567
     restricted: false
   creative:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25568
+    address: 138.19.178.165:25568
     restricted: false
   dungeon:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25569
+    address: 138.19.178.165:25569
     restricted: false
   r:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25570
+    address: 138.19.178.165:25570
     restricted: false
   sf4:
     motd: §6§l佩可伺服器§r §bpecomc.ml§r §c✰ 1.15.2 ✰§r §a§l§n24Hr§r§a開放§r   §d§l再一次，與你相遇的物語
-    address: 138.19.227.55:25571
+    address: 138.19.178.165:25571
     restricted: false
